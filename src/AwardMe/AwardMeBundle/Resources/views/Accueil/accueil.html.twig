@@ -1,0 +1,12 @@
+{% extends 'AwardMeBundle::layout.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {% stylesheets filter='cssrewrite' 'bundles/awardme/css/accueil.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="screen" />
+    {% endstylesheets %}
+{% endblock stylesheets %}
+
+{% block content %}
+{% include 'AwardMeBundle:Accueil:accueil_content.html.twig' %}
+{% endblock %}

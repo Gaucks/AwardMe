@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}AwardMe | Christophe Gautier {% endblock %}</title>
+        {# Importation des stylesheets #}
+        {% block stylesheets %}
+            {% stylesheets filter='cssrewrite'
+            'bundles/awardme/css/reset.css'
+            'bundles/awardme/css/style.css'
+            'bundles/awardme/css/header.css'
+            'bundles/awardme/css/menu.css'
+            'bundles/awardme/css/popup.css'
+            %}
+            <link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
+            <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+            <script src="{{ path('fos_js_routing_js', {"callback": "fos.Router.setData"}) }}"></script>
+            {% endstylesheets %}
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+    <div id="site">
+
+        <div id="menu-left">
+            {% render(controller('AwardMeBundle:Site:Menu')) %}
+        </div>
+
+        <div id="wrap">
+            {% render(controller('AwardMeBundle:Site:header')) %}
+            {% render(controller('AwardMeBundle:Site:underheader')) %}
+            {% block content %}{% endblock content %}
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+
+
+
+    {% block javascripts %}
+        {% javascripts  'bundles/awardme/js/jquery-2.1.1.min.js'
+                        'bundles/awardme/js/java.js'
+                        'bundles/awardme/js/publication.js'
+        %}
+        <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+    {% endblock %}
+
+
+
+    </body>
+</html>

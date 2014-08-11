@@ -1,0 +1,120 @@
+#site-title{
+    height: 50px;
+    padding: 0px 0;
+}
+
+#site-title h1#title{
+    font-size: 2em;
+    font-weight: 100;
+    float: right;
+    font-family: helvetica, "Lucida Grande", arial, sans-serif;
+    margin-top: 15px;
+}
+
+#head-box-content{
+    float: left;
+    margin-top: 10px;
+}
+
+#head-box-content input[type=button].button1:hover{
+    background: url('../images/ico/png_white/boxe@2x.png') #31373c no-repeat left;
+    background-size: 40px;
+    text-indent: 20px;;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    float: left;
+}
+
+#head-box-content input[type=button].button1{
+    background: url('../images/ico/png_white/boxe@2x.png') #bcbcbc no-repeat left;
+    background-size: 40px;
+    text-indent: 20px;;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    float: left;
+}
+
+#head-box-content input[type=button].button2{
+    background: url('../images/ico/png_white/user-comment@2x.png') #bcbcbc no-repeat left;
+    background-size: 40px;
+    text-indent: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    float: left;
+}
+#head-box-content input[type=button].button2:hover{
+    background: url('../images/ico/png_white/user-comment@2x.png') #31373c no-repeat left;
+    background-size: 40px;
+    text-indent: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    float: left;
+}
+
+
+
+#head-box-content input[type=text].recherche{
+    background: #bcbcbc;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 10px;
+    float: left;
+    color: #7c7a7a;
+    margin-left: 80px;
+}
+
+#head-box-content input.recherche::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+
+#head-box-content input.recherche::-moz-placeholder{
+    color: #FFFFFF;
+}
+
+#head-box-content input[type=text].recherche:focus {
+    background: #31373c;
+}
+
+#head-box-content input[type=submit].submit{
+    background: url('../images/ico/png_white/zoom@2x.png') transparent no-repeat top left 4px;
+    background-size: 22px;
+    height: 24px;
+    width: 44px;
+    border: none;
+    color: #FFFFFF;
+    float: left;
+    margin-left: -30px;
+    margin-top: 4px;
+    border-left: 1px solid #a2a1a1;
+}
+
+#underheader{
+    padding: 10px 20px;
+    height: 30px;
+    line-height: 2.5em;
+}
+
+.flash-success{
+    background: #e5f0cb;
+    color: #3b8416;
+    text-align: center;
+    font-weight: bold;
+}
+

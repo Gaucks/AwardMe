@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}AwardMe {% endblock %}</title>
+    {# Importation des stylesheets #}
+    {% block stylesheets %}
+        {% stylesheets filter='cssrewrite'
+        'bundles/awardme/css/reset.css'
+        'bundles/awardme/css/style.css'
+        'bundles/awardme/css/neutral.css'
+        'bundles/user/css/user.css'
+        %}
+        <link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
+        {% endstylesheets %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body
+<div id="site">
+
+    <div id="neutral-header">
+        <div id="neutral-header-box"><h1 id="title"><a href="{{ path('award_me_homepage') }}" id="title">AwardMe</a></h1></div>
+    </div>
+    {% block content %} {% endblock %}
+
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.error{
+    color: red;
+    display: inline;
+}
+
+h2.zone{
+    width: 1000px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+#neutral-header{
+    background: #FFFFFF;
+    width: 100%;
+    border-bottom: 2px solid #303030;
+}
+
+#neutral-header-box{
+    width: 1000px;
+    height: 50px;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+}
+
+#neutral-header-box h1#title{
+    font-size: 2em;
+    font-weight: 100;
+    font-family: helvetica, "Lucida Grande", arial, sans-serif;
+}
+
+#fos-register{
+    width: 510px;
+    margin: 0 auto;
+    background: #373d43;
+    border-radius: 4px;
+    padding: 20px 10px 20px 20px;
+}
+
+#fos-register label.signin_label{
+    width: 200px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+#fos-register input[type=text].signin, input[type=email].signin, input[type=password].signin{
+    padding: 10px 0px;
+    text-indent: 10px;
+    width: 240px;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #303030;
+}
+
+#fos-register input[type=submit].signin-sub{
+    background: #febf01;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#fos-register-confirm{
+    width: 510px;
+    margin: 0 auto;
+    background: #373d43;
+    border-radius: 4px;
+    padding: 20px 10px 20px 20px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.button-start{
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.button-start input.start{
+    background: #ffbf43;
+    padding: 7px 20px;
+    border: 1px solid #313131;
+    border-radius: 4px;
+    text-align: center;
+    color: #000000;
+}
+

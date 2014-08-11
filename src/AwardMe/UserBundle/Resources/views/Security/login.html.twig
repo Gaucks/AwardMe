@@ -1,0 +1,33 @@
+{% extends "UserBundle::layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block content %}
+
+<div id="fos-login">
+    {% if error %}
+        <div class="error">{{ error|trans }}</div>
+    {% endif %}
+    <h4 class="request-step">Zone d'identification</h4>
+    <form action="{{ path("fos_user_security_check") }}" method="post">
+        <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+
+        <label for="username" class="signin_label">{{ 'security.login.username'|trans }}</label>
+        <input type="text" id="username" name="_username" value="{{ last_username }}" required="required" class="signin" />
+
+        <label for="password" class="signin_label">{{ 'security.login.password'|trans }}</label>
+        <input type="password" id="password" name="_password" required="required" class="signin"/>
+
+        <div>
+            <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
+            <label for="remember_me">{{ 'security.login.remember_me'|trans }}</label>
+        </div>
+
+        <div class="submit-login-box">
+            <input type="submit" id="_submit" name="_submit" value="{{ 'security.login.submit'|trans }}" class="signin-sub" />
+        </div>
+
+
+    </form>
+</div>
+{% endblock content %}

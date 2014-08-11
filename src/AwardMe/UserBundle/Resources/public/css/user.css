@@ -1,0 +1,86 @@
+#fos-login{
+    width: 510px;
+    margin: 0 auto;
+    background: #373d43;
+    border-radius: 4px;
+    padding: 20px 10px 20px 20px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+#fos-login label.signin_label{
+    width: 150px;
+    display: inline-block;
+}
+
+#fos-login input[type=text].signin, input[type=email].signin, input[type=password].signin{
+    padding: 10px 0px;
+    text-indent: 10px;
+    width: 320px;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #303030;
+}
+
+#fos-login h4.request-step{
+    color: #febf01;
+    border-bottom: 1px dashed #000000;
+    padding-bottom: 10px;
+    margin: 10px 0;
+}
+
+.submit-login-box{
+    color: #febf01;
+    margin-top: 20px;
+    border-top: 1px dashed #000000;
+    padding-top: 10px;
+}
+
+.submit-login-box input[type=submit].signin-sub{
+    background: #febf01;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#request-pwd label.label_request{
+    color: #FFFFFF;
+    display: inline-block;
+    width: 230px;
+}
+
+.submit-request-box{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.submit-request-box input[type=submit].submit{
+    background: #febf01;
+    padding: 7px 20px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#request-pwd input[type=text].request, input[type=password].request{
+    padding: 7px 0px;
+    text-indent: 10px;
+    width: 250px;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#request-pwd h4.request-step{
+    color: #febf01;
+    border-bottom: 1px dashed #000000;
+    padding-bottom: 10px;
+    margin: 20px 0;
+}

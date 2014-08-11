@@ -1,0 +1,30 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div id="box-fos-user">
+
+
+<form action="{{ path('fos_user_profile_edit') }}" {{ form_enctype(form) }} method="POST" class="fos_user_profile_edit">
+
+   <div class="profile-input-box">
+       {{ form_label(form.username, NULL, { 'label_attr': { 'class': 'label_profile' }}) }}
+       {{ form_widget(form.username, { 'attr': {'class': 'profile','placeholder': 'Mon texte'}}) }}
+   </div>
+
+    <div class="profile-input-box">
+        {{ form_label(form.email, NULL, { 'label_attr': { 'class': 'label_profile' }}) }}
+        {{ form_widget(form.email, { 'attr': {'class': 'profile','placeholder': 'Mon email'}}) }}
+    </div>
+
+    <div class="profile-input-box">
+        {{ form_label(form.current_password, NULL, { 'label_attr': { 'class': 'label_profile' }}) }}
+        {{ form_widget(form.current_password, { 'attr': {'class': 'profile','placeholder': 'Mot de passe'}}) }}
+    </div>
+
+    {{ form_rest(form) }}
+
+    <div class="profile-input-box">
+        <input type="submit" value="{{ 'profile.edit.submit'|trans }}"  class="profile-sub"/>
+    </div>
+</form>
+
+</div>

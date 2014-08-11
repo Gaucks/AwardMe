@@ -1,0 +1,119 @@
+#fade { /*--Masque opaque noir de fond--*/
+    display: none; /*--masqué par défaut--*/
+    background: #000;
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 100%;
+    opacity: .80;
+    z-index: 9999;
+}
+
+.popup_block{
+    display: none; /*--masqué par défaut--*/
+    width: 500px;
+    background: #41474c;
+    padding: 20px;
+    border: 0px solid #373d43;
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    top: 50%; left: 50%;
+    z-index: 99999;
+    /*--Les différentes définitions de Box Shadow en CSS3--*/
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #000;
+    /*--Coins arrondis en CSS3--*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popup_block a.close{
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+}
+/*--Gérer la position fixed pour IE6--*/
+*html #fade {
+    position: absolute;
+}
+*html .popup_block {
+    position: absolute;
+}
+
+
+/*-- POPUP PUBLICATION --*/
+
+#popup_publication{
+    background: #41474c;
+    height: 200px;
+}
+
+#popup_publication h3.title{
+    text-align: center;
+    padding: 5px 0;
+    color: #7c7a7a;
+    background: #FFFFFF;
+    margin: -20px -20px 20px -20px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+#popup_publication_img{
+    width: 70px;
+    float: left;
+    height: 200px;
+    background: #31373c;
+    margin: -20px 0 -20px -20px;
+    padding-top: 20px;
+}
+#popup_publication_img img.avatar{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+#popup_publication_ctt{
+    margin-left: 70px;
+}
+
+#popup_publication_ctt textarea.publication{
+    height: 100px;
+    border: 1px solid #313131;
+    padding: 10px;
+    width: 390px;
+    resize: none;
+    border-radius: 4px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+#popup_publication_ctt input[type=submit].submit{
+    background: url('../images/ico/png_white/keyboard@2x.png') #f2b540 no-repeat left;
+    opacity: .20;
+    background-size: 24px;
+    text-indent: 17px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div id="box-fos-user-show">
+    <h3 class="profile-title">C'est ainsi que les autres utilisateurs voit votre profile</h3>
+
+    <div class="profil-avatar">
+        <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="" class="avatar" />
+        <p class="points">2000 Points</p>
+    </div>
+
+
+    <p class="username">{{ user.username }} </p>
+    <p class="realname">Non communiqué</p>
+
+    <p>{{ user.email }}</p>
+
+    <p>Date d'inscription : Le 28 septembre 2012</p>
+    <p>Derniere connexion: 27/07/2014 à 21h23</p>
+
+    <h4 class="profile-step">Derniers badges obtenus</h4>
+    <p>Aucun</p>
+
+    <h4 class="profile-step">Derniers challenges participés</h4>
+    <p>Aucun</p>
+
+    <h4 class="profile-step">Signature</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deserunt impedit maxime officia sit.
+        Consequuntur corporis
+        dignissimos iusto odio perspiciatis sed. Ad architecto at earum est et exercitationem nemo odio.</p>
+
+    <div id="social">
+        <input type="button" value="Ajouter à ma liste" class="add">
+        <input type="button" value="Retirer de ma liste" class="remove">
+    </div>
+
+
+    <div class="clear_right"></div>

@@ -1,0 +1,37 @@
+{% block content %}
+
+    <div id="box-header">
+        <ul>
+            <li><span class="number first">1</span></li>
+            <li><span class="number two">2</span></li>
+            <li><span class="number three">3</span></li>
+            <li><span class="number four">4</span></li>
+            <li><span class="number five">5</span></li>
+        </ul>
+
+        {% render(controller('UserBundle:Registration:registerPerso')) %}
+
+        <div class="clear"></div>
+    </div>
+
+    <h1 id="annonce">Lancer des challenges à vos amis selon vos regles du jeu</h1>
+
+    <div id="box-login">
+
+        <h3 id="login-title">Connectez vous maintenant</h3>
+
+        <div id="login-bottle">
+            {% render(controller('UserBundle:Security:loginPerso')) %}
+            <p id="forget-password">
+                <a href="{{ path('fos_user_resetting_request') }}" class="forget_request">Mot de passe oublié</a>
+            </p>
+        </div>
+
+    </div>
+
+    <div id="open"><p class="open"> Rejoignez des maintenant AwardMe !</p>
+        <img src="{{ asset('bundles/awardme/images/fleche.png') }}" class="fleche"/>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,117 @@
+#user-menu{
+    background: #6dd5f2;
+    float: left;
+    padding: 0px 0px 2px 0;
+}
+
+#user-menu #user-avatar{
+    height: 30px;
+    margin: 0;
+    padding: 10px 0 10px 10px;
+}
+
+#user-menu #user-avatar img.avatar{
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    float: left;
+    margin-right: 10px;
+}
+
+#user-menu #user-avatar h4#username{
+    display: inline;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+}
+
+#user-menu #user-avatar p.logout{
+    margin-top: -5px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+#user-menu a.menu{
+    background: #31373c;
+}
+
+#user-menu a.menu:hover{
+    background: #FFFFFF;
+}
+
+#user-menu a.profil{
+    color: #31373c;
+}
+
+#user-menu a.profil:hover{
+    color: #f16867;
+}
+
+#user-menu ul{
+    margin: 0;
+    min-height: 560px;
+    background: #31373c;
+}
+
+#user-menu li{
+    width: 220px;
+    text-indent: 20px;
+    color: #aeb0b3;
+    font-weight: bold;
+    background: transparent;
+    padding: 15px 0;
+}
+
+#user-menu span.ico{
+    float: right;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+#user-menu img.ico{
+    height: 30px;
+    width: 30px;
+    padding: 9px 5px;
+    background: #373d43;
+}
+
+#user-menu img.ico-menu{
+    height: 30px;
+    width: 30px;
+    padding: 9px 5px;
+    background: #6dd5f2;
+}
+
+#user-menu li.opt-menu{
+    text-align: center;
+}
+
+#user-menu li.opt-menu:hover{
+    border: none;
+    background: inherit;
+    width: 220px;
+}
+
+#user-menu img.ico-selected{
+    height: 30px;
+    width: 30px;
+    padding: 9px 5px;
+    background: #41474c;
+}
+
+#user-menu li:hover img.ico{
+    background: #41474c;
+}
+
+#user-menu li:hover{
+    background: #41474c;
+    border-left: 2px solid #ffbf43;
+    width: 218px;
+    text-indent: 18px;
+}
+
+#user-menu li.selected{
+    background: #41474c;
+    border-left: 2px solid #4fb1af;
+    width: 218px;
+    text-indent: 18px;
+}

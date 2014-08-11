@@ -1,0 +1,15 @@
+award_me_homepage:
+    path:     /
+    defaults: { _controller: AwardMeBundle:Site:index }
+
+award_me_welcome:
+    path:     /welcome
+    defaults: { _controller: AwardMeBundle:Site:welcome }
+
+award_me_add_publication:
+    path:     /Publication/add
+    defaults: { _controller: AwardMeBundle:Publication:add }
+
+award_me_remove_publication:
+    path:     /Publication/remove/Publication/{id}
+    defaults: { _controller: AwardMeBundle:Publication:remove }

@@ -1,0 +1,39 @@
+<div id="user-menu">
+    <div id="user-avatar">
+        <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="" class="avatar"/>
+        <h4 id="username">Amandine Gautier</h4>
+        <p class="logout"><a href="{{ path('fos_user_profile_show') }}" class="profil">Mon profil </a> - <a href="{{ path('fos_user_security_logout') }}" class="profil">Déconnexion</a> </p>
+    </div>
+
+    <ul>
+        <li class="opt-menu">MENU <span class="ico">
+                <img src="{{ asset('bundles/awardme/images/ico/png_white/th@2x.png') }}" alt="" class="ico-menu"/>
+        </span> </li>
+
+
+        <a href="{{ path('award_me_homepage') }}" class="menu">
+        <li>Dashboard <span class="ico">
+                <img src="{{ asset('bundles/awardme/images/ico/png_white/user-diploma@2x.png') }}" alt="" class="ico"/>
+        </span> </li>
+        </a>
+
+        <a href="{{ path('fos_user_profile_edit') }}" class="menu">
+        <li>Profile <span class="ico">
+                 <img src="{{ asset('bundles/awardme/images/ico/png_white/settings@2x.png') }}" alt="" class="ico"/>
+        </span></li>
+        </a>
+
+        <a href="#" class="menu">
+        <li class="selected">Challenge <span class="ico">
+                 <img src="{{ asset('bundles/awardme/images/ico/png_white/list2@2x.png') }}" alt="" class="ico-selected"/>
+        </span></li>
+        </a>
+
+        <a href="#" class="menu">
+        <li>Status <span class="ico">
+                 <img src="{{ asset('bundles/awardme/images/ico/png_white/circle-info@2x.png') }}" alt="" class="ico"/>
+        </span></li>
+        </a>
+
+    </ul>
+</div>

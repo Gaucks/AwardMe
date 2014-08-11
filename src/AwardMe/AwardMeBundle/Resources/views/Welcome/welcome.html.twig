@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {# Importation des stylesheets #}
+    {% block stylesheets %}
+        {% stylesheets filter='cssrewrite'
+        'bundles/awardme/css/reset.css'
+        'bundles/awardme/css/welcome.css'
+        %}
+        <link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
+        {% endstylesheets %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body
+<div id="site">
+
+    <div id="wrap">
+
+        {% block content %}
+            {% include 'AwardMeBundle:Welcome:welcome_content.html.twig' %}
+        {% endblock content %}
+
+    </div>
+
+</div>
+
+
+
+{% block javascripts %}
+    {% javascripts 'bundles/awardme/js/jquery-2.1.1.min.js'%}
+    <script src="{{ asset_url }}"></script>
+
+    <script>
+        // On attend que la page soit chargée
+        jQuery(document).ready(function()
+        {
+            $('#box-header').hide();
+
+            $('#open').click(function() {
+                    $('#box-header').slideToggle('slow');
+                    $('.open').text('Fermer le formulaire d\'inscription');
+            });
+        });
+
+    </script>
+    {% endjavascripts %}
+{% endblock %}
+
+</body>
+</html>

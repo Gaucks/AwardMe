@@ -1,0 +1,7 @@
+parameters:
+#    award_me.example.class: AwardMe\AwardMeBundle\Example
+
+services:
+#    award_me.example:
+#        class: %award_me.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

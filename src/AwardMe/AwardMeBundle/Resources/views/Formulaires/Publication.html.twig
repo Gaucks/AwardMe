@@ -1,0 +1,23 @@
+<div id="popup_publication">
+    <h3 class="title">Ajouter une publication</h3>
+    <div id="popup_publication_img">
+        <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="Amandine" class="avatar" />
+    </div>
+
+    <div id="popup_publication_ctt">
+        <form action="{{ path('award_me_add_publication') }}" {{ form_enctype(form) }} method="POST">
+        <div>
+            {{ form_errors(form.content) }}
+            {{ form_widget(form.content) }}
+        </div>
+
+        {{ form_rest(form) }}
+
+        <div>
+            <div id="legende" class="insuffisant"></div>
+            <input type="submit" value="Publier maintenant"  class="submit"/>
+        </div>
+       </form>
+    </div>
+
+</div>
