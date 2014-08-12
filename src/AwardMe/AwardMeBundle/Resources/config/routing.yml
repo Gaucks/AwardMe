@@ -13,3 +13,7 @@ award_me_add_publication:
 award_me_remove_publication:
     path:     /Publication/remove/Publication/{id}
     defaults: { _controller: AwardMeBundle:Publication:remove }
+
+award_me_user_change_avatar:
+    path:     /Profile/change-avatar
+    defaults: { _controller: UserBundle:Avatar:change }

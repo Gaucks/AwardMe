@@ -6,6 +6,24 @@
     border-radius: 0 8px 8px 0;
     display: inline-block;
     border-left: 0;
+    position: relative;
+}
+
+#box-fos-user img.profile-avatar{
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
+.profile-input-box-avatar{
+    position: absolute;
+    background: #373d43;
+    width: 120px;
+    height: auto;
+    right: -120px;
+    border: 1px solid #373d43;
+    border-radius: 0 8px 8px 0;
+    padding: 10px 10px 10px 0;
 }
 
 .profile-input-box{
@@ -28,7 +46,7 @@
 }
 
 .profile-input-box input[type=submit].profile-sub{
-    background: #febf01;
+    background: #6dd5f2;
     padding: 7px 20px;
     border: 1px solid transparent;
     text-transform: uppercase;
@@ -72,7 +90,7 @@
 }
 
 .profil-avatar img.avatar{
-    width: 80px; height: 80px;
+    max-width: 100px; height: auto;
     border: 3px solid #FFFFFF;
 }
 

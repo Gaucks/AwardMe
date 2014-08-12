@@ -1,7 +1,7 @@
 <div id="popup_publication">
     <h3 class="title">Ajouter une publication</h3>
     <div id="popup_publication_img">
-        <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="Amandine" class="avatar" />
+        <img src="{{ asset('bundles/user/images/avatars/'~app.user.avatar.path) }}" alt="{{ app.user.username }}" class="avatar" />
     </div>
 
     <div id="popup_publication_ctt">
@@ -14,8 +14,8 @@
         {{ form_rest(form) }}
 
         <div>
+            <input type="submit" value="Publier maintenant"  class="submit-pub"/>
             <div id="legende" class="insuffisant"></div>
-            <input type="submit" value="Publier maintenant"  class="submit"/>
         </div>
        </form>
     </div>

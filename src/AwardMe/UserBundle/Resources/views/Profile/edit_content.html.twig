@@ -2,13 +2,28 @@
 
 <div id="box-fos-user">
 
-
 <form action="{{ path('fos_user_profile_edit') }}" {{ form_enctype(form) }} method="POST" class="fos_user_profile_edit">
+
+   <div class="profile-input-box-avatar">
+       <a href="#" data-width="500" data-rel="popup_avatar" class="poplight" >
+           <img src="{{ asset('bundles/user/images/avatars/' ~ app.user.avatar.path) }}" class="profile-avatar" />
+       </a>
+   </div>
 
    <div class="profile-input-box">
        {{ form_label(form.username, NULL, { 'label_attr': { 'class': 'label_profile' }}) }}
        {{ form_widget(form.username, { 'attr': {'class': 'profile','placeholder': 'Mon texte'}}) }}
    </div>
+
+    <div class="profile-input-box">
+        {{ form_label(form.name, 'Nom :', { 'label_attr': { 'class': 'label_profile' }}) }}
+        {{ form_widget(form.name, { 'attr': {'class': 'profile','placeholder': '( Facultatif )'}}) }}
+    </div>
+
+    <div class="profile-input-box">
+        {{ form_label(form.firstname, 'Prénom :', { 'label_attr': { 'class': 'label_profile' }}) }}
+        {{ form_widget(form.firstname, { 'attr': {'class': 'profile','placeholder': '( Facultatif )'}}) }}
+    </div>
 
     <div class="profile-input-box">
         {{ form_label(form.email, NULL, { 'label_attr': { 'class': 'label_profile' }}) }}
@@ -27,4 +42,8 @@
     </div>
 </form>
 
+</div>
+
+<div id="popup_avatar" class="popup_block">
+    {% render(controller('UserBundle:Avatar:Change')) %}
 </div>

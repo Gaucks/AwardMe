@@ -4,18 +4,28 @@
     <h3 class="profile-title">C'est ainsi que les autres utilisateurs voit votre profile</h3>
 
     <div class="profil-avatar">
-        <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="" class="avatar" />
+        <img src="{{ asset('bundles/user/images/avatars/'~app.user.avatar.path)}} " alt="{{ user.username }}" class="avatar" />
         <p class="points">2000 Points</p>
     </div>
 
 
     <p class="username">{{ user.username }} </p>
-    <p class="realname">Non communiqué</p>
+    <p class="realname">
+        {% if app.user.name is defined and app.user.firstname is defined %}
+            {{ app.user.firstname }} {{ app.user.name }}
+        {% elseif app.user.name is defined and app.user.firstname is not defined %}
+            {{ app.user.name }}
+        {% elseif app.user.name is not defined and app.user.firstname is defined %}
+            {{ app.user.firstname }}
+        {% else %}
+            Non communiqué
+        {% endif %}</p>
 
     <p>{{ user.email }}</p>
 
-    <p>Date d'inscription : Le 28 septembre 2012</p>
-    <p>Derniere connexion: 27/07/2014 à 21h23</p>
+    <p>Date d'inscription : {{ app.user.created|date('d/m/y') }} à {{ app.user.created|date('H:i') }}</p>
+    <p>Derniere connexion: {{ app.user.lastLogin|date('d/m/y') }} à {{ app.user.lastLogin|date('H:i') }}</p>
+    <p>Derniere modification : {{ app.user.updated|date('d/m/y') }} à {{ app.user.updated|date('H:i') }}</p>
 
     <h4 class="profile-step">Derniers badges obtenus</h4>
     <p>Aucun</p>

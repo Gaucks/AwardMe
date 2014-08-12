@@ -41,7 +41,7 @@
             <h3 class="box-title-suggestion">Challenges populaires</h3>
 
             <div class="box-propose-content">
-                <div class="box-propose-img"><img src="{{ asset('bundles/awardme/images/avatars/noAvatar.png') }}" alt="" class="challenge-img"/></div>
+                <div class="box-propose-img"><img src="{{ asset('bundles/user/images/avatars/noAvatar.png') }}" alt="" class="challenge-img"/></div>
                 <div class="box-propose-desc">
                     <p>Personnalisation de compte <span class="number">100</spa></p>
                 </div>
@@ -49,7 +49,7 @@
             </div>
 
             <div class="box-propose-content">
-                <div class="box-propose-img"><img src="{{ asset('bundles/awardme/images/avatars/noAvatar.png') }}" alt="" class="challenge-img"/></div>
+                <div class="box-propose-img"><img src="{{ asset('bundles/user/images/avatars/noAvatar.png') }}" alt="" class="challenge-img"/></div>
                 <div class="box-propose-desc">
                     <p>Personnalisation de compte <span class="number">100</spa></p>
                 </div>
@@ -57,14 +57,14 @@
             </div>
 
             <div class="box-propose-content">
-                <div class="box-propose-img"><img src="{{ asset('bundles/awardme/images/avatars/world-burn.jpg') }}" alt="" class="challenge-img"/></div>
+                <div class="box-propose-img"><img src="{{ asset('bundles/user/images/avatars/world-burn.jpg') }}" alt="" class="challenge-img"/></div>
                 <div class="box-propose-desc">
                     <p>Un Challenge à la con<span class="number">20</spa></p>
                 </div>
             </div>
 
             <div class="box-propose-content">
-                <div class="box-propose-img"><img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="" class="challenge-img"/></div>
+                <div class="box-propose-img"><img src="{{ asset('bundles/user/images/avatars/amandine.jpg') }}" alt="" class="challenge-img"/></div>
                 <div class="box-propose-desc">
                     <p>Lorem ipsum dolor sit ametm <span class="number">1</spa></p>
                 </div>
@@ -72,7 +72,7 @@
             </div>
 
             <div class="box-propose-content">
-                <div class="box-propose-img"><img src="{{ asset('bundles/awardme/images/avatars/world-burn.jpg') }}" alt="" class="challenge-img"/></div>
+                <div class="box-propose-img"><img src="{{ asset('bundles/user/images/avatars/world-burn.jpg') }}" alt="" class="challenge-img"/></div>
                 <div class="box-propose-desc">
                     <p>Lorem ipsum dolor sit  <span class="number">76</spa></p>
                 </div>
@@ -88,7 +88,7 @@
         {% for p in publications %}
 
             <div class="box-diary ami">
-                <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="" class="user-avatar"/>
+                <img src="{{ asset('bundles/user/images/avatars/'~ p.user.avatar.path ) }}" alt="" class="user-avatar"/>
                 <h3 class="diary-username">{{ p.user.username }} <span class="option">Le {{ p.date|date('d/m/Y') }} à {{ p.date|date('h:i') }} </span></h3>
 
                 <p class="diary-content">{{ p.content }}</p>
@@ -113,7 +113,7 @@
         {% endfor %}
 
         <div class="box-diary ami">
-                <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="" class="user-avatar"/>
+                <img src="{{ asset('bundles/user/images/avatars/amandine.jpg') }}" alt="" class="user-avatar"/>
                 <h3 class="diary-username">Christophe Gautier <span class="option">Le 18/07/14 à 22h18</span></h3>
 
                 <p class="diary-content">Bonjour,
@@ -126,7 +126,7 @@
             </div>
 
         <div class="box-diary challenge">
-            <img src="{{ asset('bundles/awardme/images/avatars/amandine.jpg') }}" alt="" class="user-avatar"/>
+            <img src="{{ asset('bundles/user/images/avatars/amandine.jpg') }}" alt="" class="user-avatar"/>
             <h3 class="diary-username">Jeremy Gautier <span class="option">Le 18/07/14 à 22h18</span></h3>
             <p class="diary-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquam architecto at consectetur
@@ -140,12 +140,12 @@
         </div>
 
         <div class="box-diary">
-            <img src="{{ asset('bundles/awardme/images/avatars/world-burn.jpg') }}" alt="" class="user-avatar"/>
+            <img src="{{ asset('bundles/user/images/avatars/world-burn.jpg') }}" alt="" class="user-avatar"/>
             <h3 class="diary-username">Amandine Gautier <span class="option">Le 18/07/14 à 22h18</span></h3>
             <p class="diary-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquam architecto at consectetur</p>
             <div class="box-diary-img">
-                <img src="{{ asset('bundles/awardme/images/uploads/facebook-original.png') }}" alt="" class="diary"/>
+                <img src="{{ asset('bundles/user/images/uploads/facebook-original.png') }}" alt="" class="diary"/>
             </div>
 
             <div class="box-diary-options">
@@ -155,7 +155,7 @@
         </div>
 
         <div class="box-diary reussite">
-            <img src="{{ asset('bundles/awardme/images/avatars/noAvatar.png') }}" alt="" class="user-avatar"/>
+            <img src="{{ asset('bundles/user/images/avatars/noAvatar.png') }}" alt="" class="user-avatar"/>
             <h3 class="diary-username">Emma Gautier <span class="option">Le 18/07/14 à 22h18</span></h3>
             <p class="diary-content">
                 Deserunt dicta dolores ea exercitationem impedit magnam minima, nemo non odit quibusdam quidem quos,

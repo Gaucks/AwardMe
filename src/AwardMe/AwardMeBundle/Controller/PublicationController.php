@@ -5,7 +5,6 @@ namespace AwardMe\AwardMeBundle\Controller;
 use AwardMe\AwardMeBundle\Entity\Publication;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use AwardMe\AwardMeBundle\Form\PublicationType;
-use Symfony\Component\HttpFoundation\Response;
 
 use Symfony\Component\HttpFoundation\Request;
 

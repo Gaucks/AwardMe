@@ -1,0 +1,27 @@
+<div id="popup_change_avatar">
+    <h3 class="title">Modifier votre avatar</h3>
+
+    <div id="popup_avatar_avatar"><img src="{{ asset('bundles/user/images/avatars/'~app.user.avatar.path) }}" class="actual"/></div>
+<form action="{{ path('award_me_user_change_avatar') }}" method="POST" {{ form_enctype(form) }} >
+
+    <div id="popup_avatar_ctt">
+        <h4 class="step">A partir de mon ordinateur</h4>
+        {{ form_errors(form.file) }}
+        {{ form_widget(form.file, {'attr': {'class':'change-avatar'}}) }}
+
+        {{ form_rest(form) }}
+        <div>
+            <h4 class="step">A partir du web</h4>
+            <input type="text" placeholder="http://A-partir-du-web.com" class="change-avatar"/>
+        </div>
+    </div>
+
+
+    <div>
+        <div id="legende" class="insuffisant"></div>
+        <input type="submit" value="Uploader maintenant"  class="submit-avatar"/>
+    </div>
+
+</form>
+
+</div>
