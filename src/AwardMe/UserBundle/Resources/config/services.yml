@@ -4,3 +4,9 @@ services:
         arguments: [%fos_user.model.user.class%]
         tags:
             - { name: form.type, alias: awardme_user_profile }
+
+    award_me.activity_listener:
+        class: AwardMe\UserBundle\Listener\ActivityListener
+        arguments: [ @security.context, @doctrine.orm.entity_manager ]
+        tags:
+            - { name: kernel.event_listener, event: kernel.controller, method: OnCoreController }

@@ -1,0 +1,23 @@
+<div id="popup_publication">
+    <h3 class="title">Modifier une publication {{ publication }}</h3>
+    <div id="popup_publication_img">
+        <img src="{{ asset('bundles/user/images/avatars/'~app.user.avatar.path) }}" alt="{{ app.user.username }}" class="avatar" />
+    </div>
+
+    <div id="popup_publication_ctt">
+        <form action="{{ path('award_me_update_publication', {'id': publication }) }}" {{ form_enctype(form) }} method="POST">
+            <div>
+                {{ form_errors(form.content) }}
+                {{ form_widget(form.content) }}
+            </div>
+
+            {{ form_rest(form) }}
+
+            <div>
+                <input type="submit" value="Valider les modifications"  class="submit-pub"/>
+                <div id="legende_popup" class="insuffisant"></div>
+            </div>
+        </form>
+    </div>
+
+</div>

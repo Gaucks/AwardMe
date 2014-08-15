@@ -33,25 +33,23 @@ $(function(){
         return false;
     });
 
-
-
-    //La fonction s'active sur l'évènement keydown dans la zone de texte
-    $("#awardme_awardmebundle_publication_content").keydown(function(limit) {
+//La fonction s'active sur l'évènement keydown dans la zone de texte
+    $("textarea#awardme_awardmebundle_publication_content").keyup(function(limit) {
 
         //Définir la limite à atteindre
-        var limit = "10";
+        var limit = "2";
 
         //Récupérer le nombre de caractères dans la zone de texte
         var currlength = $(this).val().length;
 
         //Afficher un texte de légende en fonction du nombre de caractères
         if(currlength >= limit){
-            $("#legende").removeClass("insuffisant").addClass("suffisant").html("Votre message peut être validé.");
-            $('#popup_publication_ctt .submit').attr('disabled', false).css({ backgroundColor: '#f2b540', 'opacity': '1' });
+            $("#legende_popup").removeClass("insuffisant").addClass("suffisant").html("Votre message peut être validé.");
+            $('#popup_publication_ctt .submit-pub').attr('disabled', false).css({ backgroundColor: '#f2b540', 'opacity': '1' });
         }
         else{
-            $("#legende").removeClass("suffisant").addClass("insuffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est encore trop peu.");
-            $('#popup_publication_ctt .submit').attr('disabled', true).css({ backgroundColor: '#f2b540', 'opacity': '0.20' });
+            $("#legende_popup").removeClass("suffisant").addClass("insuffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est encore trop peu.");
+            $('#popup_publication_ctt .submit-pub').attr('disabled', true).css({ backgroundColor: '#f2b540', 'opacity': '0.20' });
         }
 
     });

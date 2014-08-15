@@ -29,7 +29,7 @@ class Publication
 
     /**
      * @var string
-     * @Assert\NotBlank()
+     * @Assert\Length( min="5" , minMessage="Votre message doit contenur au moins {{ limit }} caractères")
      *
      * @ORM\Column(name="content", type="text")
      */

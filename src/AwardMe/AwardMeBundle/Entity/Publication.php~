@@ -29,7 +29,7 @@ class Publication
 
     /**
      * @var string
-     * @Assert\NotBlank()
+     * @Assert\Length( min="5" , minMessage="Votre message doit contenur au moins {{ limit }} caractères")
      *
      * @ORM\Column(name="content", type="text")
      */
@@ -102,5 +102,28 @@ class Publication
     public function getDate()
     {
         return $this->date;
+    }
+
+    /**
+     * Set user
+     *
+     * @param \AwardMe\UserBundle\Entity\User $user
+     * @return Publication
+     */
+    public function setUser(\AwardMe\UserBundle\Entity\User $user = null)
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    /**
+     * Get user
+     *
+     * @return \AwardMe\UserBundle\Entity\User 
+     */
+    public function getUser()
+    {
+        return $this->user;
     }
 }

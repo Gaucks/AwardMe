@@ -9,6 +9,17 @@
     float: right;
     font-family: helvetica, "Lucida Grande", arial, sans-serif;
     margin-top: 15px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#site-title img.title-logo{
+    height: 30px;
+    float: left;
+    border-radius: 4px;
+    background: #FFFFFF;
+    margin: -5px 5px 0 0
+
 }
 
 #head-box-content{
@@ -16,67 +27,52 @@
     margin-top: 10px;
 }
 
-#head-box-content input[type=button].button1:hover{
-    background: url('../images/ico/png_white/boxe@2x.png') #31373c no-repeat left;
-    background-size: 40px;
-    text-indent: 20px;;
-    border-radius: 8px;
-    border: none;
-    padding: 7px 20px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    float: left;
-}
-
 #head-box-content input[type=button].button1{
-    background: url('../images/ico/png_white/boxe@2x.png') #bcbcbc no-repeat left;
-    background-size: 40px;
-    text-indent: 20px;;
-    border-radius: 8px;
+    background: url('../images/ico/png_white/boxe@2x.png') transparent no-repeat left top;
+    background-size: 30px;
+    text-indent: 12px;
     border: none;
     padding: 7px 20px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    color: #aeb0b3;
     float: left;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 #head-box-content input[type=button].button2{
-    background: url('../images/ico/png_white/user-comment@2x.png') #bcbcbc no-repeat left;
-    background-size: 40px;
-    text-indent: 20px;
-    border-radius: 8px;
+    background: url('../images/ico/png_white/user-comment@2x.png') transparent no-repeat left top -3px;
+    background-size: 30px;
+    text-indent: 12px;
     border: none;
     padding: 7px 20px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    color: #aeb0b3;
     float: left;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px #000000;
 }
+
+#head-box-content input[type=button].button1:hover{
+    border-bottom: 2px solid #4ba8a6;
+    padding-bottom: 17px;
+    color: #ffffff;
+}
+
 #head-box-content input[type=button].button2:hover{
-    background: url('../images/ico/png_white/user-comment@2x.png') #31373c no-repeat left;
-    background-size: 40px;
-    text-indent: 20px;
-    border-radius: 8px;
-    border: none;
-    padding: 7px 20px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    float: left;
+    border-bottom: 2px solid #4ba8a6;
+    padding-bottom: 17px;
+    color: #ffffff;
 }
-
-
 
 #head-box-content input[type=text].recherche{
-    background: #bcbcbc;
+    background: #41474c;
     width: 300px;
     border-radius: 8px;
-    border: none;
+    border: 1px solid #31373c;
     padding: 7px 10px;
     float: left;
-    color: #7c7a7a;
+    color: #FFFFFF;
     margin-left: 80px;
 }
 
@@ -89,7 +85,7 @@
 }
 
 #head-box-content input[type=text].recherche:focus {
-    background: #31373c;
+    border: 1px solid #FFFFFF;
 }
 
 #head-box-content input[type=submit].submit{
@@ -106,7 +102,7 @@
 }
 
 #underheader{
-    padding: 10px 20px;
+    padding: 10px 20px 8px 20px;
     height: 30px;
     line-height: 2.5em;
 }
@@ -116,5 +112,8 @@
     color: #3b8416;
     text-align: center;
     font-weight: bold;
+    margin-top: 47px;
+    border: 1px solid #3b8416;
+    border-radius: 4px;
 }
 

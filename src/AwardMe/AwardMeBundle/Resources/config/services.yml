@@ -2,6 +2,24 @@ parameters:
 #    award_me.example.class: AwardMe\AwardMeBundle\Example
 
 services:
-#    award_me.example:
-#        class: %award_me.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    award_me.publicationService:
+        class: AwardMe\AwardMeBundle\Services\PublicationService
+        arguments: [ @doctrine ]
+
+    award_me.publication_events_failed:
+        class: AwardMe\AwardMeBundle\EventListener\PublicationEvents
+        arguments: [ @session ]
+        tags:
+            - { name: kernel.event_listener, event: award_me.publication_events_failed, method: failed }
+
+    award_me.publication_events_success:
+        class: AwardMe\AwardMeBundle\EventListener\PublicationEvents
+        arguments: [ @session ]
+        tags:
+            - { name: kernel.event_listener, event: award_me.publication_events_success, method: success }
+
+    award_me.publication_events_updated:
+        class: AwardMe\AwardMeBundle\EventListener\PublicationEvents
+        arguments: [ @session ]
+        tags:
+            - { name: kernel.event_listener, event: award_me.publication_events_updated, method: updated }

@@ -12,7 +12,7 @@ html, body {
     -webkit-font-smoothing: antialiased;
     padding: 0;
     margin: 0;
-    background: #41474c;
+    background: #ecf0f1;
 }
 
 input::-webkit-input-placeholder {
@@ -81,14 +81,23 @@ input[type=button], input[type=submit], button{ cursor: pointer; }
 }
 
 #header{
-    background: #FFFFFF;
+    background: #373d43;
     color: #7c7a7a;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+    position: fixed;
+    width: 100%;
+    margin-left: 10px;
+    z-index: 2;
+    max-height: 50px;
 }
 
 
 #header-box{
     width: 1000px;
-    margin: 0 auto;
+    padding-left: 20px;
 }
 
 #site-title{
@@ -99,6 +108,7 @@ input[type=button], input[type=submit], button{ cursor: pointer; }
     float: left;
     background: #373d43;
     width: 210px;
+    position: fixed;
 }
 
 /*
@@ -109,4 +119,8 @@ input[type=button], input[type=submit], button{ cursor: pointer; }
     margin-left: 210px;
 }
 
+#content{
+    margin-top: 50px;
+    z-index: auto;
+}
 

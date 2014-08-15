@@ -29,7 +29,11 @@
         <div id="wrap">
             {% render(controller('AwardMeBundle:Site:header')) %}
             {% render(controller('AwardMeBundle:Site:underheader')) %}
+
+            <div id="content">
             {% block content %}{% endblock content %}
+            </div>
+
         </div>
 
         <div class="clear"></div>

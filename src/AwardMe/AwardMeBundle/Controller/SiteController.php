@@ -13,15 +13,8 @@ class SiteController extends Controller
 
     public function indexAction()
     {
-        $securityContext = $this->container->get('security.context'); // Le controleur de sécurité
-
-        if(!$securityContext->isGranted('IS_AUTHENTICATED_REMEMBERED')){
-            return $this->render('AwardMeBundle:Welcome:welcome.html.twig');
-        }
-
-        $user = $securityContext->getToken()->getUser(); // L'utilisateur courant
-
-        $publications = $this->getDoctrine()->getManager()->getRepository('AwardMeBundle:Publication')->findByUser($user);
+        $publications = $this->getDoctrine()->getManager()->getRepository('AwardMeBundle:Publication')->findBy(
+                                                                                array('user' => $this->getUser()), array('date' => 'DESC'));
 
         return $this->render('AwardMeBundle:Accueil:accueil.html.twig', array('publications' => $publications));
     }

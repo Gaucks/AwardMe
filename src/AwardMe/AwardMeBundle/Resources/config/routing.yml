@@ -10,8 +10,12 @@ award_me_add_publication:
     path:     /Publication/add
     defaults: { _controller: AwardMeBundle:Publication:add }
 
+award_me_update_publication:
+    path:     /Publication/update/{id}
+    defaults: { _controller: AwardMeBundle:Publication:update }
+
 award_me_remove_publication:
-    path:     /Publication/remove/Publication/{id}
+    path:     /Publication/remove/{id}
     defaults: { _controller: AwardMeBundle:Publication:remove }
 
 award_me_user_change_avatar:

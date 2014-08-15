@@ -6,18 +6,14 @@ use AwardMe\AwardMeBundle\Entity\Publication;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use AwardMe\AwardMeBundle\Form\PublicationType;
 
+use AwardMe\AwardMeBundle\Listener\BigBrotherEvents;
+
 use Symfony\Component\HttpFoundation\Request;
 
 class PublicationController extends Controller
 {
     public function addAction(Request $request)
     {
-        $securityContext = $this->container->get('security.context'); // Le controleur de sécurité
-        if(!$securityContext->isGranted('IS_AUTHENTICATED_REMEMBERED')){
-            return $this->render('AwardMeBundle:Welcome:welcome.html.twig');
-        }
-        $user = $securityContext->getToken()->getUser(); // L'utilisateur courant
-
         $publication = new Publication;
         $form  = $this->createForm(new PublicationType(), $publication);
 
@@ -25,12 +21,18 @@ class PublicationController extends Controller
 
         if ($form->isValid()) {
 
-            $em = $this->getDoctrine()->getManager();
+            $publicationService = $this->container->get('award_me.publicationService');
 
-            $publication->setUser($user);
-            $em->persist($publication);
-            $em->flush();
+            // Teste de l'existance de la publication
+            if(!$publicationService->addPublication($publication, $this->getUser()))
+            {
+                // On déclenche l'évènement du raté
+                $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_FAILED);
+                return $this->redirect($this->generateUrl('award_me_homepage'));
+            }
 
+            // On déclenche l'évènement du success
+            $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_SUCCESS);
             return $this->redirect($this->generateUrl('award_me_homepage'));
         }
 
@@ -39,25 +41,47 @@ class PublicationController extends Controller
 
     public function removeAction($id){
 
-        $securityContext = $this->container->get('security.context'); // Le controleur de sécurité
-        if(!$securityContext->isGranted('IS_AUTHENTICATED_REMEMBERED')){
-            return $this->render('AwardMeBundle:Welcome:welcome.html.twig');
+        $publicationService = $this->container->get('award_me.publicationService');
+
+        if(!$publicationService->removePublication($id, $this->getUser())){
+            throw $this->createNotFoundException('Cette publication n\'existe pas ou vous ne pouvez pas la supprimé');
         }
-        $user = $securityContext->getToken()->getUser(); // L'utilisateur courant
 
-        $em = $this->getDoctrine()->getManager();
-        $product = $em->getRepository('AwardMeBundle:Publication')->findOneBy(array('id' => $id, 'user' => $user));
+        return $this->redirect($this->generateUrl('award_me_homepage'));
 
-        if(!$product){
-             throw $this->createNotFoundException('Cette publication n\'existe pas ou vous ne pouvez pas la supprimé');
-        }
-        else{
-            $em->remove($product);
-            $em->flush();
+    }
 
+    public function updateAction(Request $request, $id){
+
+        $publication = $this->getDoctrine()->getManager()->getRepository('AwardMeBundle:Publication')->find($id);
+
+            if(!$publication)
+            {
+                $this->redirect($this->generateUrl('award_me_homepage'));
+            }
+
+        $form = $this->createForm(new PublicationType(), $publication);
+
+        $form->handleRequest($request);
+
+        if($form->isValid()){
+            $publicationService = $this->container->get('award_me.publicationService');
+
+            if(!$publicationService->updatePublication($publication, $this->getUser()))
+            {
+                // On déclenche l'évènement du raté
+                $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_FAILED);
+                return $this->redirect($this->generateUrl('award_me_homepage'));
+            }
+
+            // On déclenche l'évènement du success
+            $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_UPDATED);
             return $this->redirect($this->generateUrl('award_me_homepage'));
+
         }
 
+
+        return $this->render('AwardMeBundle:Formulaires:PublicationUpdate.html.twig', array('form' => $form->createView(), 'publication' => $id));
     }
 
 }

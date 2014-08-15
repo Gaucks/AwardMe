@@ -4,17 +4,18 @@
         <div id="head-box-content">
 
             <a href="#" data-width="500" data-rel="popup_challenge" class="poplight" >
-             <input type="button" class="button1" value="CHALLENGE" />
+             <input type="button" class="button1" value="Challenge" />
             </a>
 
            <a href="#" data-width="500" data-rel="popup_name" class="poplight" >
-               <input type="button" class="button2" value="MESSAGE" />
+               <input type="button" class="button2" value="Message" />
            </a>
             <input  type="text" class="recherche" placeholder="Rechercher sur AwardMe" />
             <input type="submit" value="" class="submit"/>
         </div>
         <div id="site-title">
-            <h1 id="title"><a href="{{ path('award_me_homepage') }}" id="title" >{{ webmaster }}</a></h1>
+            <h1 id="title"><a href="{{ path('award_me_homepage') }}" id="title" >
+                    <img src="{{ asset('bundles/awardme/images/other.png') }}" class="title-logo"/> {{ webmaster }}</a></h1>
         </div>
 
         <div class="clear_right"></div>
@@ -29,7 +30,6 @@
 <div id="popup_name" class="popup_block">
     {% render(controller('AwardMeBundle:Publication:Add')) %}
 </div>
-
 {#
 
 <div id="popup_challenge" class="popup_block">

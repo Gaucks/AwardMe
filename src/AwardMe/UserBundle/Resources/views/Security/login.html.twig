@@ -3,12 +3,11 @@
 {% trans_default_domain 'FOSUserBundle' %}
 
 {% block content %}
-
+    <h2 class="zone">Zone d'identification</h2>
 <div id="fos-login">
     {% if error %}
         <div class="error">{{ error|trans }}</div>
     {% endif %}
-    <h4 class="request-step">Zone d'identification</h4>
     <form action="{{ path("fos_user_security_check") }}" method="post">
         <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
 
