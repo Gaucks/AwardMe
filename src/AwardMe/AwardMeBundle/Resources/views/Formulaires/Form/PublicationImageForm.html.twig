@@ -1,0 +1,18 @@
+
+<form action=" {{ path('award_me_add_publication_image') }}" method="POST" {{ form_enctype(form) }} >
+
+    <div id="add-pic-file-box">
+        {{ form_errors(form) }}
+        {{ form_widget(form.file) }}
+    </div>
+
+    <div id="changeforpic-ctt">
+        {{ form_widget(form.content) }}
+    </div>
+
+    {{ form_rest(form) }}
+
+    <div>
+        <input type="submit" value="Publier mon image"  class="submit-img"/>
+    </div>
+</form>

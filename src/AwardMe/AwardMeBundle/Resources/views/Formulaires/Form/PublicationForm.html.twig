@@ -1,0 +1,14 @@
+<form action="{{ path('award_me_add_publication_normal') }}" method="POST" {{ form_enctype(form) }} >
+
+    <div>
+        {{ form_widget(form) }}
+    </div>
+
+    {{ form_rest(form) }}
+
+    <div>
+        <input type="submit" value="Publier maintenant"  class="submit-pub"/>
+        <div id="legende_popup" class="insuffisant"></div>
+    </div>
+
+</form>

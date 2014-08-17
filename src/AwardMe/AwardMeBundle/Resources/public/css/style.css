@@ -85,7 +85,6 @@ input[type=button], input[type=submit], button{ cursor: pointer; }
     color: #7c7a7a;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
-    -webkit-border-radius: 3px;
     -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
     position: fixed;
     width: 100%;

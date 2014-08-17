@@ -46,11 +46,32 @@ $(function(){
         if(currlength >= limit){
             $("#legende_popup").removeClass("insuffisant").addClass("suffisant").html("Votre message peut être validé.");
             $('#popup_publication_ctt .submit-pub').attr('disabled', false).css({ backgroundColor: '#f2b540', 'opacity': '1' });
+
         }
         else{
             $("#legende_popup").removeClass("suffisant").addClass("insuffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est encore trop peu.");
-            $('#popup_publication_ctt .submit-pub').attr('disabled', true).css({ backgroundColor: '#f2b540', 'opacity': '0.20' });
+            $("#popup_publication_ctt .submit-pub").attr('disabled', true).css({ backgroundColor: '#f2b540', 'opacity': '0.20' });
         }
+
+    });
+
+// La fonction qui passe à l'ajout de photo
+
+    $("#changeforpic").click(function(){
+       $("#changeforpub-box").hide();
+       $("#changeforpic-box").show();
+       $("li#changeforpic").removeClass("unselected").addClass("selected");
+       $("li#changeforpub").removeClass("selected").addClass("unselected");
+       $("textarea.add-pic").focus();
+
+    });
+
+    $("#changeforpub").click(function(){
+        $("#changeforpic-box").hide();
+        $("#changeforpub-box").show();
+        $("textarea#awardme_awardmebundle_publication_content").focus();
+        $("li#changeforpub").removeClass("unselected").addClass("selected");
+        $("li#changeforpic").removeClass("selected").addClass("unselected");
 
     });
 

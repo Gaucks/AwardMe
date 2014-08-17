@@ -16,7 +16,9 @@ class SiteController extends Controller
         $publications = $this->getDoctrine()->getManager()->getRepository('AwardMeBundle:Publication')->findBy(
                                                                                 array('user' => $this->getUser()), array('date' => 'DESC'));
 
-        return $this->render('AwardMeBundle:Accueil:accueil.html.twig', array('publications' => $publications));
+        $publicationsImages = $this->getDoctrine()->getManager()->getRepository('AwardMeBundle:PublicationImage')->findBy( array('user' => $this->getUser()), array('date' => 'DESC'));
+
+        return $this->render('AwardMeBundle:Accueil:accueil.html.twig', array('publications' => $publications, 'publicationsimages' => $publicationsImages ));
     }
 
     public function headerAction()

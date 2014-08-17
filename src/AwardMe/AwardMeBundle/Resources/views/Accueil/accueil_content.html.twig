@@ -85,6 +85,46 @@
     <div id="box-content_right">
 
 
+
+        {% for p in publicationsimages %}
+
+            <div class="box-diary">
+                <img src="{{ asset('bundles/user/images/avatars/'~ p.user.avatar.path ) }}" alt="" class="user-avatar"/>
+                <h4 class="diary-username">{{ p.user.username }}, <span class="option">{{ p.date|date('d M y') }} à {{ p.date|date('H:i') }} </span></h4>
+
+                    <div class="publication-pic-box">
+                        <img src="{{ asset('uploads/publicationsImages/') ~p.path }}" class="publication-pic" alt="{{ p.user.username }}"/>
+                        <p class="diary-content">{{ p.content }}</p>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="box-diary-options">
+
+                        <div class="options-box" id="options-box-{{ p.id }}">
+                            <ul id="options-ul">
+                                <li class="options-li"><a href="#" rel="{{ p.id }}" class="options-list">Ne plus afficher cette publication.</a></li>
+                                <li class="options-li"><a href="#" class="options-list">Signaler le contenu.</a></li>
+                                <li class="options-li"><a href="#" class="options-list">Ajouter l'auteur à mes amis.</a></li>
+                                <li class="options-li"><a href="#" data-width="500" data-rel="popup_update-{{ p.id }}" class="poplight">Modifier ma publication</a></li>
+                            </ul>
+                        </div>
+
+                        <span class="options"><a href="#" class="opt"> Commenter </a> - <a href="#" class="opt">Suggérer</a> - <a href="#" rel="{{ p.id }}" class="opt-hide" > Options</a></span>
+                    </div>
+            </div>
+
+
+            <div id="popup_update-{{ p.id }}" class="popup_block">
+                {% render(controller('AwardMeBundle:Publication:Update', { 'id': p.id })) %}
+            </div>
+
+        {% endfor %}
+
+
+
+
+
+
         {% for p in publications %}
 
             <div class="box-diary ami">

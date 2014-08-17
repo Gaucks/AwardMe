@@ -157,6 +157,16 @@
     background: #FFFFFF;
 }
 
+.publication-pic-box{
+}
+
+.publication-pic-box img.publication-pic{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
 .challenge{
     border: 1px solid transparent;
 }

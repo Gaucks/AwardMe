@@ -18,6 +18,13 @@ class PublicationService {
         return TRUE;
     }
 
+    // Enregistrement quand c'est une image
+    public function addPublicationImage($publication , $user)
+    {
+        $this->saveBDD($publication->setUser($user));
+        return TRUE;
+    }
+
     // Modification
     public function  updatePublication($publication , $user){
         $this->em->flush();

@@ -23,56 +23,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PublicationService.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Services/PublicationService.php">
+      <file leaf-file-name="SiteController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="502" selection-end="502" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
+            <state line="18" column="183" selection-start="752" selection-end="752" vertical-scroll-proportion="0.33925685" vertical-offset="0" max-vertical-offset="619">
               <folding>
-                <element signature="e#102#203#0" expanded="false" />
-                <element signature="e#530#872#0" expanded="false" />
-                <element signature="e#906#1021#0" expanded="false" />
-                <element signature="e#1056#1172#0" expanded="false" />
+                <element signature="e#157#273#0" expanded="false" />
+                <element signature="e#339#566#0" expanded="false" />
+                <element signature="e#924#1039#0" expanded="false" />
+                <element signature="e#1045#1170#0" expanded="false" />
+                <element signature="e#1176#1287#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicationController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/PublicationController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3322785" vertical-offset="0" max-vertical-offset="632">
-              <folding>
-                <element signature="e#52#97#0" expanded="true" />
-                <element signature="e#359#1439#0" expanded="false" />
-                <element signature="e#1045#1064#1" expanded="true" />
-                <element signature="e#1281#1300#1" expanded="true" />
-                <element signature="e#1344#1393#0" expanded="true" />
-                <element signature="e#1445#1851#0" expanded="false" />
-                <element signature="e#1822#1841#1" expanded="true" />
-                <element signature="e#1857#3124#0" expanded="false" />
-                <element signature="e#2121#2140#1" expanded="true" />
-                <element signature="e#2700#2719#1" expanded="true" />
-                <element signature="e#2936#2955#1" expanded="true" />
-                <element signature="e#3001#3056#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicationEvents.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/EventListener/PublicationEvents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="37" selection-start="410" selection-end="410" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -87,15 +48,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/config/service.yml" />
-        <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/DependencyInjection/UserExtension.php" />
-        <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/public/css/profile.css" />
-        <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/public/js/avatar.js" />
-        <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/Avatar.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Perso/change_avatar.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Form/Type/ProfileFormType.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Profile/edit_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/menu.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/user/css/profile.css" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Controller/AvatarController.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
@@ -103,15 +58,8 @@
         <option value="$PROJECT_DIR$/app/autoload.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/underheader.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/header.css" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/menu.css" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Services/Publication/Publication.php" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/accueil.css" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/popup.css" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Publication.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/neutral.css" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/style.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/base_neutre.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Registration/register_content.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Security/login.html.twig" />
@@ -127,17 +75,30 @@
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Listener/ActivityListener.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Profile/show_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/header.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/PublicationUpdate.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Services/PublicationService.php" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Listener/BigBrotherEvents.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/EventListener/PublicationEvents.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/style.css" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/header.css" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/menu.css" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/menu.html.twig" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/PublicationUpdate.html.twig" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form/PublicationForm.html.twig" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Services/PublicationService.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Publication.html.twig" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/popup.css" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/PublicationController.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/Avatar.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/accueil.css" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/PublicationImage.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form/PublicationImageForm.html.twig" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Form/PublicationImageType.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php" />
       </list>
     </option>
   </component>
@@ -173,20 +134,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="AwardMe">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,98 +228,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMeBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMeBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMeBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventListener" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="AwardMe">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -390,13 +261,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires" />
       <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css" />
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/config" />
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources" />
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Controller" />
-      <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form" />
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/public/images" />
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Form/Type" />
     </key>
@@ -479,7 +351,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29402262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31260097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,9 +365,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32748538" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -507,10 +379,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23344104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31260097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991228" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -532,393 +404,366 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/jsrouting-bundle/FOS/JsRoutingBundle/Controller/Controller.php">
+    <entry file="file://$PROJECT_DIR$/web/bundles/awardme/css/neutral.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
-          <folding />
-        </state>
+        <state line="8" column="19" selection-start="124" selection-end="124" vertical-scroll-proportion="0.2777778" vertical-offset="0" max-vertical-offset="1650" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/DependencyInjection/AwardMeExtension.php">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
-          <folding />
-        </state>
+        <state line="5" column="42" selection-start="152" selection-end="152" vertical-scroll-proportion="0.18987341" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/accueil.css">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Registration/register_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="17" selection-start="4720" selection-end="4720" vertical-scroll-proportion="0.7709677" vertical-offset="3677" max-vertical-offset="4320">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="45" selection-end="85" vertical-scroll-proportion="0.07594936" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/popup.css">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="68" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.0" vertical-offset="1332" max-vertical-offset="3060">
-          <folding />
-        </state>
+        <state line="27" column="21" selection-start="803" selection-end="803" vertical-scroll-proportion="0.8263889" vertical-offset="48" max-vertical-offset="495" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/layout_connected.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Controller/RegistrationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="633">
-          <folding>
-            <element signature="e#13#29#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="69" column="61" selection-start="2588" selection-end="2610" vertical-scroll-proportion="-12.5" vertical-offset="480" max-vertical-offset="2835" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="1079" selection-end="1102" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="2895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.orm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.mongodb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/routing/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="275" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/EventListener/LastLoginListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Event/UserEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/DependencyInjection/UserExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="633" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/Group.orm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Doctrine/Orm/UserListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.172468" vertical-offset="7693" max-vertical-offset="8865" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/EventListener/AuthenticationListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Listener/PublicationPostEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="511" selection-end="511" vertical-scroll-proportion="0.44334975" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.46042004" vertical-offset="285" max-vertical-offset="1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Form/Type/ProfileFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="43" selection-start="274" selection-end="274" vertical-scroll-proportion="0.19704433" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="54" selection-start="370" selection-end="370" vertical-scroll-proportion="0.20579268" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="30" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.098101266" vertical-offset="943" max-vertical-offset="3375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Listener/ActivityListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.77544427" vertical-offset="0" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Profile/show_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.5815832" vertical-offset="45" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="6" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.64398736" vertical-offset="58" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Listener/BigBrotherEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="68" selection-start="608" selection-end="634" vertical-scroll-proportion="0.5458861" vertical-offset="0" max-vertical-offset="632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="939" selection-end="939" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/EventListener/PublicationEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="37" selection-start="410" selection-end="410" vertical-scroll-proportion="0.403481" vertical-offset="0" max-vertical-offset="632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="26" selection-end="26" vertical-scroll-proportion="0.024590164" vertical-offset="0" max-vertical-offset="1875">
+        <state line="39" column="37" selection-start="835" selection-end="835" vertical-scroll-proportion="0.41158536" vertical-offset="315" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/neutral.css">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="439" selection-end="439" vertical-scroll-proportion="0.84352076" vertical-offset="0" max-vertical-offset="1590">
+        <state line="111" column="27" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="1174" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="32" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="14" selection-start="2040" selection-end="2040" vertical-scroll-proportion="2.7083333" vertical-offset="210" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="596" selection-end="772" vertical-scroll-proportion="0.5514706" vertical-offset="0" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_neutre.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="782" selection-end="782" vertical-scroll-proportion="0.9113924" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="e#692#709#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Perso/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Perso/register_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/awardme/css/neutral.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="124" selection-end="124" vertical-scroll-proportion="0.2777778" vertical-offset="0" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="152" selection-end="152" vertical-scroll-proportion="0.18987341" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Registration/register_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="45" selection-end="85" vertical-scroll-proportion="0.07594936" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="21" selection-start="803" selection-end="803" vertical-scroll-proportion="0.8263889" vertical-offset="48" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/Publication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="5" selection-start="929" selection-end="929" vertical-scroll-proportion="0.6617647" vertical-offset="405" max-vertical-offset="2010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="308" selection-end="308" vertical-scroll-proportion="0.23734178" vertical-offset="0" max-vertical-offset="632">
-          <folding>
-            <element signature="e#157#273#0" expanded="false" />
-            <element signature="e#279#687#0" expanded="false" />
-            <element signature="e#693#808#0" expanded="false" />
-            <element signature="e#814#939#0" expanded="false" />
-            <element signature="e#945#1056#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="61" selection-start="2588" selection-end="2610" vertical-scroll-proportion="-12.5" vertical-offset="480" max-vertical-offset="2835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserEvents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="1079" selection-end="1102" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="2895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/DependencyInjection/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.orm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.mongodb.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/routing/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="275" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/EventListener/LastLoginListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Event/UserEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/DependencyInjection/UserExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/Group.orm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Doctrine/Orm/UserListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.172468" vertical-offset="7693" max-vertical-offset="8865">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/EventListener/AuthenticationListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Listener/PublicationPostEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="511" selection-end="511" vertical-scroll-proportion="0.44334975" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="e#133#177#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.46042004" vertical-offset="285" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Form/Type/ProfileFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="274" selection-end="274" vertical-scroll-proportion="0.19704433" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="54" selection-start="370" selection-end="370" vertical-scroll-proportion="0.20579268" vertical-offset="0" max-vertical-offset="656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="30" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.098101266" vertical-offset="943" max-vertical-offset="3375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Listener/ActivityListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.77544427" vertical-offset="0" max-vertical-offset="735">
-          <folding>
-            <element signature="e#47#99#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Profile/show_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.5815832" vertical-offset="45" max-vertical-offset="780">
+        <state line="14" column="23" selection-start="347" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="506" selection-end="506" vertical-scroll-proportion="0.3887195" vertical-offset="0" max-vertical-offset="656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="6" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.64398736" vertical-offset="58" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Publication.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="62" selection-start="707" selection-end="707" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+        <state line="18" column="74" selection-start="590" selection-end="590" vertical-scroll-proportion="0.41158536" vertical-offset="0" max-vertical-offset="656">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/PublicationUpdate.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="61" selection-start="90" selection-end="90" vertical-scroll-proportion="0.023734177" vertical-offset="0" max-vertical-offset="632">
+        <state line="13" column="33" selection-start="0" selection-end="845" vertical-scroll-proportion="0.31502423" vertical-offset="0" max-vertical-offset="619">
           <folding>
             <element signature="e#348#375#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form/PublicationForm.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="79" selection-start="4868" selection-end="4868" vertical-scroll-proportion="0.68497574" vertical-offset="1256" max-vertical-offset="2460">
+        <state line="6" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.14240506" vertical-offset="0" max-vertical-offset="632">
+          <folding>
+            <element signature="e#23#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Publication.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.4966443" vertical-offset="49" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="49" selection-start="324" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Perso/change_avatar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="22" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.5101089" vertical-offset="257" max-vertical-offset="930">
+        <state line="48" column="0" selection-start="1675" selection-end="1675" vertical-scroll-proportion="1.1197512" vertical-offset="0" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Listener/BigBrotherEvents.php">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/popup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="68" selection-start="608" selection-end="634" vertical-scroll-proportion="0.5458861" vertical-offset="0" max-vertical-offset="632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/EventListener/PublicationEvents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="410" selection-end="410" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="495">
+        <state line="154" column="48" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="4875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Services/PublicationService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="502" selection-end="502" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
+        <state line="4" column="6" selection-start="56" selection-end="56" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="510">
           <folding>
             <element signature="e#102#203#0" expanded="false" />
-            <element signature="e#530#872#0" expanded="false" />
-            <element signature="e#906#1021#0" expanded="false" />
-            <element signature="e#1056#1172#0" expanded="false" />
+            <element signature="e#231#370#0" expanded="false" />
+            <element signature="e#420#564#0" expanded="false" />
+            <element signature="e#590#702#0" expanded="false" />
+            <element signature="e#724#1066#0" expanded="false" />
+            <element signature="e#1100#1215#0" expanded="false" />
+            <element signature="e#1250#1366#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/PublicationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3322785" vertical-offset="0" max-vertical-offset="632">
+        <state line="71" column="0" selection-start="2511" selection-end="2511" vertical-scroll-proportion="-6.1666665" vertical-offset="257" max-vertical-offset="900">
           <folding>
             <element signature="e#52#97#0" expanded="true" />
-            <element signature="e#359#1439#0" expanded="false" />
-            <element signature="e#1045#1064#1" expanded="true" />
-            <element signature="e#1281#1300#1" expanded="true" />
-            <element signature="e#1344#1393#0" expanded="true" />
-            <element signature="e#1445#1851#0" expanded="false" />
-            <element signature="e#1822#1841#1" expanded="true" />
-            <element signature="e#1857#3124#0" expanded="false" />
-            <element signature="e#2121#2140#1" expanded="true" />
-            <element signature="e#2700#2719#1" expanded="true" />
-            <element signature="e#2936#2955#1" expanded="true" />
-            <element signature="e#3001#3056#0" expanded="true" />
+            <element signature="e#462#582#0" expanded="false" />
+            <element signature="e#588#994#0" expanded="false" />
+            <element signature="e#1000#2267#0" expanded="false" />
+            <element signature="e#3580#4676#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="43" selection-start="359" selection-end="374" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="255">
+          <folding>
+            <element signature="e#12#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/Publication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="46" selection-start="742" selection-end="742" vertical-scroll-proportion="0.47468355" vertical-offset="180" max-vertical-offset="2010">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/accueil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="20" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.3516129" vertical-offset="2272" max-vertical-offset="4470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="20" selection-start="4468" selection-end="4468" vertical-scroll-proportion="-36.416668" vertical-offset="716" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Form/PublicationImageType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="57" selection-start="707" selection-end="707" vertical-scroll-proportion="0.38255033" vertical-offset="42" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form/PublicationImageForm.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="305" selection-end="305" vertical-scroll-proportion="0.28481013" vertical-offset="0" max-vertical-offset="632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/Avatar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="8" selection-start="2281" selection-end="2694" vertical-scroll-proportion="2.5870254" vertical-offset="0" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/PublicationImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="18" selection-start="695" selection-end="695" vertical-scroll-proportion="0.37974682" vertical-offset="0" max-vertical-offset="1170">
+          <folding>
+            <element signature="e#193#286#0" expanded="false" />
+            <element signature="e#316#396#0" expanded="false" />
+            <element signature="e#421#564#0" expanded="false" />
+            <element signature="e#587#676#0" expanded="false" />
+            <element signature="e#701#751#0" expanded="false" />
+            <element signature="e#775#845#0" expanded="false" />
+            <element signature="e#869#943#0" expanded="false" />
+            <element signature="e#971#1103#0" expanded="false" />
+            <element signature="e#1109#1233#0" expanded="false" />
+            <element signature="e#1239#1448#0" expanded="false" />
+            <element signature="e#1454#1691#0" expanded="false" />
+            <element signature="e#1697#1757#0" expanded="false" />
+            <element signature="e#1762#2046#0" expanded="false" />
+            <element signature="e#2052#2114#0" expanded="false" />
+            <element signature="e#2120#2578#0" expanded="false" />
+            <element signature="e#2226#2294#0" expanded="false" />
+            <element signature="e#2584#2620#0" expanded="false" />
+            <element signature="e#2625#2752#0" expanded="false" />
+            <element signature="e#2758#2814#0" expanded="false" />
+            <element signature="e#2819#2880#0" expanded="false" />
+            <element signature="e#2886#2982#0" expanded="false" />
+            <element signature="e#2987#3081#0" expanded="false" />
+            <element signature="e#3087#3147#0" expanded="false" />
+            <element signature="e#3152#3217#0" expanded="false" />
+            <element signature="e#3223#3316#0" expanded="false" />
+            <element signature="e#3321#3415#0" expanded="false" />
+            <element signature="e#3421#3478#0" expanded="false" />
+            <element signature="e#3483#3548#0" expanded="false" />
+            <element signature="e#3554#3672#0" expanded="false" />
+            <element signature="e#3677#3810#0" expanded="false" />
+            <element signature="e#3816#3898#0" expanded="false" />
+            <element signature="e#3903#3968#0" expanded="false" />
+            <element signature="e#3974#4073#0" expanded="false" />
+            <element signature="e#4078#4184#0" expanded="false" />
+            <element signature="e#4190#4250#0" expanded="false" />
+            <element signature="e#4255#4326#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="183" selection-start="752" selection-end="752" vertical-scroll-proportion="0.33925685" vertical-offset="0" max-vertical-offset="619">
+          <folding>
+            <element signature="e#157#273#0" expanded="false" />
+            <element signature="e#339#566#0" expanded="false" />
+            <element signature="e#924#1039#0" expanded="false" />
+            <element signature="e#1045#1170#0" expanded="false" />
+            <element signature="e#1176#1287#0" expanded="false" />
           </folding>
         </state>
       </provider>

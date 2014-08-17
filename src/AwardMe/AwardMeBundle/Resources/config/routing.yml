@@ -10,6 +10,14 @@ award_me_add_publication:
     path:     /Publication/add
     defaults: { _controller: AwardMeBundle:Publication:add }
 
+award_me_add_publication_normal:
+    path: /Publication/add-normal
+    defaults: { _controller: AwardMeBundle:Publication:addPublication }
+
+award_me_add_publication_image:
+    path: /Publication/add-image
+    defaults: { _controller: AwardMeBundle:Publication:addPublicationImage }
+
 award_me_update_publication:
     path:     /Publication/update/{id}
     defaults: { _controller: AwardMeBundle:Publication:update }

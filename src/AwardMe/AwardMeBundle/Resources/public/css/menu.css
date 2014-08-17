@@ -109,7 +109,7 @@
     text-indent: 18px;
 }
 
-#user-menu li.selected{
+#user-menu li.selected-menu{
     background: #41474c;
     border-left: 2px solid #4fb1af;
     width: 218px;
