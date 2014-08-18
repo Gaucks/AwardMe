@@ -26,14 +26,27 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="183" selection-start="752" selection-end="752" vertical-scroll-proportion="0.33925685" vertical-offset="0" max-vertical-offset="619">
+            <state line="22" column="52" selection-start="883" selection-end="883" vertical-scroll-proportion="0.24635333" vertical-offset="118" max-vertical-offset="780">
               <folding>
                 <element signature="e#157#273#0" expanded="false" />
+                <element signature="e#224#265#1" expanded="true" />
+                <element signature="e#389#416#1" expanded="true" />
                 <element signature="e#339#566#0" expanded="false" />
-                <element signature="e#924#1039#0" expanded="false" />
-                <element signature="e#1045#1170#0" expanded="false" />
-                <element signature="e#1176#1287#0" expanded="false" />
+                <element signature="e#649#681#1" expanded="true" />
+                <element signature="e#978#1019#0" expanded="true" />
+                <element signature="e#1142#1183#1" expanded="true" />
+                <element signature="e#1268#1314#1" expanded="true" />
+                <element signature="e#1392#1431#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueil_content.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="30" selection-start="4205" selection-end="4205" vertical-scroll-proportion="-17.041666" vertical-offset="1151" max-vertical-offset="2070">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/accueil.css" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/PublicationImage.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form/PublicationImageForm.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Form/PublicationImageType.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php" />
       </list>
     </option>
@@ -228,6 +241,96 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMeBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accueil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMeBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMeBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -258,14 +361,15 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil" />
       <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires" />
       <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css" />
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/config" />
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources" />
-      <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form" />
@@ -273,7 +377,12 @@
       <recent name="$PROJECT_DIR$/src/AwardMe/UserBundle/Form/Type" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.SiteController.php">
+    <configuration default="false" name="SiteController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -287,7 +396,14 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.SiteController.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.SiteController.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -351,7 +467,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31260097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31260097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -683,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="20" selection-start="4468" selection-end="4468" vertical-scroll-proportion="-36.416668" vertical-offset="716" max-vertical-offset="3060">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Form/PublicationImageType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="57" selection-start="707" selection-end="707" vertical-scroll-proportion="0.38255033" vertical-offset="42" max-vertical-offset="690">
@@ -755,15 +864,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="30" selection-start="4205" selection-end="4205" vertical-scroll-proportion="-17.041666" vertical-offset="1151" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="183" selection-start="752" selection-end="752" vertical-scroll-proportion="0.33925685" vertical-offset="0" max-vertical-offset="619">
+        <state line="22" column="52" selection-start="883" selection-end="883" vertical-scroll-proportion="0.24635333" vertical-offset="118" max-vertical-offset="780">
           <folding>
             <element signature="e#157#273#0" expanded="false" />
+            <element signature="e#224#265#1" expanded="true" />
+            <element signature="e#389#416#1" expanded="true" />
             <element signature="e#339#566#0" expanded="false" />
-            <element signature="e#924#1039#0" expanded="false" />
-            <element signature="e#1045#1170#0" expanded="false" />
-            <element signature="e#1176#1287#0" expanded="false" />
+            <element signature="e#649#681#1" expanded="true" />
+            <element signature="e#978#1019#0" expanded="true" />
+            <element signature="e#1142#1183#1" expanded="true" />
+            <element signature="e#1268#1314#1" expanded="true" />
+            <element signature="e#1392#1431#1" expanded="true" />
           </folding>
         </state>
       </provider>

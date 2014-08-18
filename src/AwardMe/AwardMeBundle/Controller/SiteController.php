@@ -18,7 +18,12 @@ class SiteController extends Controller
 
         $publicationsImages = $this->getDoctrine()->getManager()->getRepository('AwardMeBundle:PublicationImage')->findBy( array('user' => $this->getUser()), array('date' => 'DESC'));
 
-        return $this->render('AwardMeBundle:Accueil:accueil.html.twig', array('publications' => $publications, 'publicationsimages' => $publicationsImages ));
+        $allpublications = array_merge($publications, $publicationsImages);
+
+        // Trie le tableau $allpublications par date
+        usort($allpublications, array($this, 'trie_par_date'));
+
+        return $this->render('AwardMeBundle:Accueil:accueil.html.twig', array('publications' => $allpublications));
     }
 
     public function headerAction()
@@ -34,6 +39,12 @@ class SiteController extends Controller
     public function menuAction()
     {
         return $this->render('AwardMeBundle:Template:menu.html.twig');
+    }
+
+    private function trie_par_date($a, $b) {
+        $date1 = strtotime($a->getDate()->format('r'));
+        $date2 = strtotime($b->getDate()->format('r'));
+        return $date1 < $date2 ;
     }
 
 }

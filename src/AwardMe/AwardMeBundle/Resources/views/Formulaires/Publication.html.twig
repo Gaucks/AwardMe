@@ -1,0 +1,37 @@
+<div id="popup_publication">
+    <h3 class="title">Ajouter une publication</h3>
+    <div id="popup_publication_img">
+        <img src="{{ asset('bundles/user/images/avatars/'~app.user.avatar.path) }}" alt="{{ app.user.username }}" class="avatar" />
+    </div>
+
+    <div id="popup_publication_ctt">
+            <div id="popup_publication-ico">
+                <div class="popup_publication-ico-ctt">
+                    <ul>
+                        <li class="selected" id="changeforpub" >
+                            <a href="#" class="menu">
+                                <img src="{{ asset('bundles/awardme/images/ico/png_white/terminal@2x.png') }}" alt="Nouvelle publication" class="pub-ico"/>
+                                <span class="ico-title"> Publication </span>
+                            </a>
+                        </li>
+                        <li class="unselected" id="changeforpic">
+                            <a href="#" class="menu">
+                                <img src="{{ asset('bundles/awardme/images/ico/png_white/picture@2x.png') }}" alt="Poster une image" class="pub-ico"/>
+                                <span class="ico-title"> Photo/Vidéo </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="changeforpic-box">
+                {{ render(controller('AwardMeBundle:Publication:addPublicationImage')) }}
+            </div>
+
+            <div id="changeforpub-box">
+                {{ render(controller('AwardMeBundle:Publication:addPublication')) }}
+            </div>
+    </div>
+
+</div>
+

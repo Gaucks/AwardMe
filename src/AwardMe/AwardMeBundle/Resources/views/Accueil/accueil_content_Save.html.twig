@@ -86,25 +86,17 @@
 
 
 
-        {% for p in publications %}
+        {% for p in publicationsimages %}
 
             <div class="box-diary">
                 <img src="{{ asset('bundles/user/images/avatars/'~ p.user.avatar.path ) }}" alt="" class="user-avatar"/>
                 <h4 class="diary-username">{{ p.user.username }}, <span class="option">{{ p.date|date('d M y') }} à {{ p.date|date('H:i') }} </span></h4>
 
-                    {% if p.path is defined %}
                     <div class="publication-pic-box">
                         <img src="{{ asset('uploads/publicationsImages/') ~p.path }}" class="publication-pic" alt="{{ p.user.username }}"/>
                         <p class="diary-content">{{ p.content }}</p>
                         <div class="clear"></div>
                     </div>
-                    {% else %}
-
-                        <div>
-                            <p class="diary-content">{{ p.content }}</p>
-                        </div>
-
-                {% endif %}
 
                     <div class="box-diary-options">
 
@@ -128,6 +120,80 @@
 
         {% endfor %}
 
+
+
+
+
+
+        {% for p in publications %}
+
+            <div class="box-diary ami">
+                <img src="{{ asset('bundles/user/images/avatars/'~ p.user.avatar.path ) }}" alt="" class="user-avatar"/>
+                <h4 class="diary-username">{{ p.user.username }}, <span class="option">{{ p.date|date('d M') }}, {{ p.date|date('H:i') }} </span></h3>
+
+                <p class="diary-content">{{ p.content }}</p>
+
+                <div class="box-diary-options">
+
+                    <div class="options-box" id="options-box-{{ p.id }}">
+                        <ul id="options-ul">
+                            <li class="options-li"><a href="#" rel="{{ p.id }}" class="options-list">Ne plus afficher cette publication.</a></li>
+                            <li class="options-li"><a href="#" class="options-list">Signaler le contenu.</a></li>
+                            <li class="options-li"><a href="#" class="options-list">Ajouter l'auteur à mes amis.</a></li>
+                            <li class="options-li"><a href="#" data-width="500" data-rel="popup_update-{{ p.id }}" class="poplight">Modifier ma publication</a></li>
+                        </ul>
+                    </div>
+
+                    <span class="options"><a href="#" class="opt"> Commenter </a> - <a href="#" class="opt">Suggérer</a> - <a href="#" rel="{{ p.id }}" class="opt-hide" > Options</a></span>
+                </div>
+            </div>
+
+
+            <div id="popup_update-{{ p.id }}" class="popup_block">
+                {% render(controller('AwardMeBundle:Publication:Update', { 'id': p.id })) %}
+            </div>
+
+        {% endfor %}
+
+        <div class="box-diary ami">
+                <img src="{{ asset('bundles/user/images/avatars/amandine.jpg') }}" alt="" class="user-avatar"/>
+                <h4 class="diary-username">Christophe Gautier, <span class="option">Le 18/07/14 à 22h18</span></h3>
+
+                <p class="diary-content">Bonjour,
+                    deserunt dicta dolores ea exercitationem impedit magnam minima, nemo non odit quibusdam quidem quos,
+                    recusandae suscipit unde ut?</p>
+
+                <div class="box-diary-options">
+                    <span class="options"><a href="#" class="opt"> Commenter </a> - <a href="#" class="opt">Suggérer</a> - <a href="#" class="opt"> Retirer </a></span>
+                </div>
+            </div>
+
+        <div class="box-diary challenge">
+            <img src="{{ asset('bundles/user/images/avatars/amandine.jpg') }}" alt="" class="user-avatar"/>
+            <h4 class="diary-username">Jeremy Gautier, <span class="option">Le 18/07/14 à 22h18</span></h3>
+            <p class="diary-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam architecto at consectetur
+                deserunt dicta dolores ea exercitationem impedit magnam minima, nemo non odit quibusdam quidem quos,
+                recusandae suscipit unde ut?</p>
+
+            <div class="box-diary-options">
+                <span class="options"><a href="#" class="opt"> Commenter </a> - <a href="#" class="opt">Suggerer</a> - <a href="#" class="opt"> Retirer </a></span>
+            </div>
+
+        </div>
+
+        <div class="box-diary reussite">
+            <img src="{{ asset('bundles/user/images/avatars/noAvatar.png') }}" alt="" class="user-avatar"/>
+            <h4 class="diary-username">Emma Gautier, <span class="option">Le 18/07/14 à 22h18</span></h3>
+            <p class="diary-content">
+                Deserunt dicta dolores ea exercitationem impedit magnam minima, nemo non odit quibusdam quidem quos,
+                recusandae suscipit unde ut?</p>
+
+            <div class="box-diary-options">
+                <span class="options"><a href="#" class="opt"> Commenter </a> - <a href="#" class="opt">Suggérer</a> - <a href="#" class="opt"> Retirer </a></span>
+            </div>
+
+        </div>
     </div>
 
 </div>
