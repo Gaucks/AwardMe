@@ -46,10 +46,10 @@ class PublicationController extends Controller
 
         $publication = $this->getDoctrine()->getManager()->getRepository('AwardMeBundle:Publication')->find($id);
 
-            if(!$publication)
-            {
-                $this->redirect($this->generateUrl('award_me_homepage'));
-            }
+        if(!$publication)
+        {
+            $this->redirect($this->generateUrl('award_me_homepage'));
+        }
 
         $form = $this->createForm(new PublicationType(), $publication);
 
@@ -114,24 +114,24 @@ class PublicationController extends Controller
 
         if ($request->isMethod('POST')) {
 
-                $form->handleRequest($request);
+            $form->handleRequest($request);
 
-                if ($form->isValid()) {
+            if ($form->isValid()) {
 
-                    $publicationService = $this->container->get('award_me.publicationService');
+                $publicationService = $this->container->get('award_me.publicationService');
 
-                    // Teste de l'existance de la publication
-                    if(!$publicationService->addPublicationImage($publicationImage, $this->getUser()))
-                    {
-                        // On déclenche l'évènement du raté
-                        $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_FAILED);
-                        return $this->redirect($this->generateUrl('award_me_homepage'));
-                    }
-
-                    // On déclenche l'évènement du success
-                    $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_SUCCESS);
+                // Teste de l'existance de la publication
+                if(!$publicationService->addPublicationImage($publicationImage, $this->getUser()))
+                {
+                    // On déclenche l'évènement du raté
+                    $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_FAILED);
                     return $this->redirect($this->generateUrl('award_me_homepage'));
                 }
+
+                // On déclenche l'évènement du success
+                $this->get('event_dispatcher')->dispatch(BigbrotherEvents::PUBLICATION_SUCCESS);
+                return $this->redirect($this->generateUrl('award_me_homepage'));
+            }
         }
 
         return $this->render('AwardMeBundle:Formulaires/Form:PublicationImageForm.html.twig', array('form' => $form->createView()));

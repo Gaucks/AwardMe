@@ -44,7 +44,7 @@ class PublicationImage
     /**
      * @ORM\Column(name="path", length=255, nullable=true)
      */
-    public $path;
+    private  $path;
 
     /**
      * @ORM\Column(name="content", type="text", nullable=true)

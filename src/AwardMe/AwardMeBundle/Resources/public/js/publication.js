@@ -1,6 +1,6 @@
 $(function(){
 
-/* Permet d'afficher le tableau d'options */
+    /* Permet d'afficher le tableau d'options */
     $('a.opt-hide').on('click', function(){
 
         var publication = $(this).attr('rel');
@@ -16,7 +16,7 @@ $(function(){
         return false;
     });
 
-/* Permet de supprimer les publications */
+    /* Permet de supprimer les publications */
     $('a.options-list').click(function(){
 
         var parent      = $(this).parent().parent().parent().parent().parent();
@@ -33,22 +33,22 @@ $(function(){
         return false;
     });
 
-/* Permet de supprimer les publicationImages */
-$('a.options-list-img').click(function(){
+    /* Permet de supprimer les publicationImages */
+    $('a.options-list-img').click(function(){
 
-    var parent      = $(this).parent().parent().parent().parent().parent();
-    var publication = $(this).attr('rel');
+        var parent      = $(this).parent().parent().parent().parent().parent();
+        var publication = $(this).attr('rel');
 
-    $.ajax({
-        type: "GET",
-        url: Routing.generate('award_me_remove_publication_image', { 'id': publication }),
-        cache: false,
-        success: function(){
-            parent.slideUp('slow');
-        }
+        $.ajax({
+            type: "GET",
+            url: Routing.generate('award_me_remove_publication_image', { 'id': publication }),
+            cache: false,
+            success: function(){
+                parent.slideUp('slow');
+            }
+        });
+        return false;
     });
-    return false;
-});
 
 //La fonction s'active sur l'évènement keydown dans la zone de texte
     $("textarea#awardme_awardmebundle_publication_content").keyup(function(limit) {
@@ -75,11 +75,11 @@ $('a.options-list-img').click(function(){
 // La fonction qui passe à l'ajout de photo
 
     $("#changeforpic").click(function(){
-       $("#changeforpub-box").hide();
-       $("#changeforpic-box").show();
-       $("li#changeforpic").removeClass("unselected").addClass("selected");
-       $("li#changeforpub").removeClass("selected").addClass("unselected");
-       $("textarea.add-pic").focus();
+        $("#changeforpub-box").hide();
+        $("#changeforpic-box").show();
+        $("li#changeforpic").removeClass("unselected").addClass("selected");
+        $("li#changeforpub").removeClass("selected").addClass("unselected");
+        $("textarea.add-pic").focus();
 
     });
 

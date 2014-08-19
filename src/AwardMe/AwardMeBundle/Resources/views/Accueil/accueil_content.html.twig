@@ -91,37 +91,37 @@
                 <img src="{{ asset('bundles/user/images/avatars/'~ p.user.avatar.path ) }}" alt="" class="user-avatar"/>
                 <h4 class="diary-username">{{ p.user.username }}, <span class="option">{{ p.date|date('d M y') }} à {{ p.date|date('H:i') }} </span></h4>
 
-                    {% if p.path is defined %}
-                        {% set imagepath = 'uploads/publicationsImages/'~p.path  %}
+                {% if p.path is defined %}
+                    {% set imagepath = 'uploads/publicationsImages/'~p.path  %}
                     <div class="publication-pic-box">
                         <img src="{{ imagepath | imagine_filter('my_thumb') }}" class="publication-pic" alt="{{ p.user.username }}"/>
                         <p class="diary-content">{{ p.content }}</p>
                         <div class="clear"></div>
                     </div>
-                    {% else %}
+                {% else %}
 
-                        <div>
-                            <p class="diary-content">{{ p.content }}</p>
-                        </div>
+                    <div>
+                        <p class="diary-content">{{ p.content }}</p>
+                    </div>
 
                 {% endif %}
 
-                    <div class="box-diary-options">
+                <div class="box-diary-options">
 
-                        <div class="options-box" id="options-box-{{ p.id }}">
-                            <ul id="options-ul">
+                    <div class="options-box" id="options-box-{{ p.id }}">
+                        <ul id="options-ul">
 
-                                <li class="options-li"><a href="#" rel="{{ p.id }}"{% if p.path is defined %} class="options-list-img" {% else %} class="options-list" {% endif %}>Ne plus afficher cette publication.</a></li>
+                            <li class="options-li"><a href="#" rel="{{ p.id }}"{% if p.path is defined %} class="options-list-img" {% else %} class="options-list" {% endif %}>Ne plus afficher cette publication.</a></li>
 
 
-                                <li class="options-li"><a href="#" class="options-list">Signaler le contenu.</a></li>
-                                <li class="options-li"><a href="#" class="options-list">Ajouter l'auteur à mes amis.</a></li>
-                                <li class="options-li"><a href="#" data-width="500" {% if p.path is defined %} data-rel="popup_update-img-{{ p.id }}" {% else %}data-rel="popup_update-{{ p.id }}" {% endif %}class="poplight">Modifier ma publication</a></li>
-                            </ul>
-                        </div>
-
-                        <span class="options"><a href="#" class="opt"> Commenter </a> - <a href="#" class="opt">Suggérer</a> - <a href="#" rel="{{ p.id }}" class="opt-hide" > Options</a></span>
+                            <li class="options-li"><a href="#" class="options-list">Signaler le contenu.</a></li>
+                            <li class="options-li"><a href="#" class="options-list">Ajouter l'auteur à mes amis.</a></li>
+                            <li class="options-li"><a href="#" data-width="500" {% if p.path is defined %} data-rel="popup_update-img-{{ p.id }}" {% else %}data-rel="popup_update-{{ p.id }}" {% endif %}class="poplight">Modifier ma publication</a></li>
+                        </ul>
                     </div>
+
+                    <span class="options"><a href="#" class="opt"> Commenter </a> - <a href="#" class="opt">Suggérer</a> - <a href="#" rel="{{ p.id }}" class="opt-hide" > Options</a></span>
+                </div>
             </div>
 
 

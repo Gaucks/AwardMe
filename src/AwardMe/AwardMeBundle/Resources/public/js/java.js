@@ -4,11 +4,11 @@ jQuery(function($){
     $('a.poplight').on('click', function() {
             var popID = $(this).data('rel'); //Trouver la pop-up correspondante
             var popWidth = $(this).data('width'); //Trouver la largeur
-            $('#popup_publication_ctt .submit-pub').attr('disabled', true).css({ backgroundColor: '#f2b540', 'opacity': '0.20' });
 
             //Faire apparaitre la pop-up et ajouter le bouton de fermeture
             $('#' + popID).fadeIn().css({ 'width': popWidth}).prepend('<a href="#" class="close" title="Fermer la fenetre">X</a>');
             $('textarea#awardme_awardmebundle_publication_content').focus();
+            $('#popup_publication_ctt .submit-pub').attr('disabled', true).css({ backgroundColor: '#f2b540', 'opacity': '0.20' });
 
             //Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
             var popMargTop = ($('#' + popID).height() + 80) / 2;
