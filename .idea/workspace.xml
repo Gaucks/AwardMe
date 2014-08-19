@@ -23,35 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="java.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js">
+      <file leaf-file-name="accueil_content.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="0" selection-end="1702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+            <state line="118" column="203" selection-start="5167" selection-end="5167" vertical-scroll-proportion="0.44264942" vertical-offset="1496" max-vertical-offset="2190">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publication.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="3" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.45731708" vertical-offset="0" max-vertical-offset="656">
-              <folding>
-                <element signature="e#19#63#0" expanded="false" />
-                <element signature="e#106#481#0" expanded="false" />
-                <element signature="e#213#451#0" expanded="false" />
-                <element signature="e#309#413#0" expanded="false" />
-                <element signature="e#572#986#0" expanded="false" />
-                <element signature="e#718#956#0" expanded="false" />
-                <element signature="e#891#946#0" expanded="false" />
-                <element signature="e#1086#1506#0" expanded="false" />
-                <element signature="e#1232#1476#0" expanded="false" />
-                <element signature="e#1661#2553#0" expanded="false" />
-                <element signature="e#1950#2213#0" expanded="false" />
-                <element signature="e#2226#2546#0" expanded="false" />
-                <element signature="e#2641#2920#0" expanded="false" />
-                <element signature="e#2963#3276#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Listener/ActivityListener.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Profile/show_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/header.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Listener/BigBrotherEvents.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/EventListener/PublicationEvents.php" />
@@ -99,24 +76,23 @@
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Publication.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/popup.css" />
         <option value="$PROJECT_DIR$/src/AwardMe/UserBundle/Entity/Avatar.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/PublicationImage.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form/PublicationImageForm.html.twig" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/SiteController.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/accueil.css" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Services/PublicationService.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Form/PublicationImageType.php" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/PublicationImageUpdate.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/PublicationImage.php" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/header.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js" />
-        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js" />
         <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/PublicationController.php" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js" />
+        <option value="$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig" />
       </list>
     </option>
   </component>
@@ -249,38 +225,8 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AwardMeBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,7 +256,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accueil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AwardMeBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,7 +448,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2996769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2996769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -580,6 +556,11 @@
         <state line="27" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.5815832" vertical-offset="45" max-vertical-offset="780" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="6" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.64398736" vertical-offset="58" max-vertical-offset="690" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Listener/BigBrotherEvents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="68" selection-start="608" selection-end="634" vertical-scroll-proportion="0.5458861" vertical-offset="0" max-vertical-offset="632" />
@@ -618,6 +599,11 @@
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Form/PublicationForm.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.14240506" vertical-offset="0" max-vertical-offset="632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Publication.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.4966443" vertical-offset="49" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/UserBundle/Resources/views/Perso/change_avatar.html.twig">
@@ -695,6 +681,55 @@
         <state line="11" column="25" selection-start="269" selection-end="286" vertical-scroll-proportion="0.33880904" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="61" selection-start="2638" selection-end="2646" vertical-scroll-proportion="0.8151951" vertical-offset="1103" max-vertical-offset="1590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/PublicationImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="7" selection-start="564" selection-end="564" vertical-scroll-proportion="0.27531645" vertical-offset="6" max-vertical-offset="1170">
+          <folding>
+            <element signature="e#193#286#0" expanded="false" />
+            <element signature="e#316#396#0" expanded="false" />
+            <element signature="e#421#564#0" expanded="false" />
+            <element signature="e#587#676#0" expanded="false" />
+            <element signature="e#701#751#0" expanded="false" />
+            <element signature="e#775#845#0" expanded="false" />
+            <element signature="e#869#943#0" expanded="false" />
+            <element signature="e#971#1103#0" expanded="false" />
+            <element signature="e#1109#1233#0" expanded="false" />
+            <element signature="e#1239#1448#0" expanded="false" />
+            <element signature="e#1454#1691#0" expanded="false" />
+            <element signature="e#1697#1757#0" expanded="false" />
+            <element signature="e#1762#2046#0" expanded="false" />
+            <element signature="e#2052#2114#0" expanded="false" />
+            <element signature="e#2120#2578#0" expanded="false" />
+            <element signature="e#2226#2294#0" expanded="false" />
+            <element signature="e#2584#2620#0" expanded="false" />
+            <element signature="e#2625#2752#0" expanded="false" />
+            <element signature="e#2758#2814#0" expanded="false" />
+            <element signature="e#2819#2880#0" expanded="false" />
+            <element signature="e#2886#2982#0" expanded="false" />
+            <element signature="e#2987#3081#0" expanded="false" />
+            <element signature="e#3087#3147#0" expanded="false" />
+            <element signature="e#3152#3217#0" expanded="false" />
+            <element signature="e#3223#3316#0" expanded="false" />
+            <element signature="e#3321#3415#0" expanded="false" />
+            <element signature="e#3421#3478#0" expanded="false" />
+            <element signature="e#3483#3548#0" expanded="false" />
+            <element signature="e#3554#3672#0" expanded="false" />
+            <element signature="e#3677#3810#0" expanded="false" />
+            <element signature="e#3816#3898#0" expanded="false" />
+            <element signature="e#3903#3968#0" expanded="false" />
+            <element signature="e#3974#4073#0" expanded="false" />
+            <element signature="e#4078#4184#0" expanded="false" />
+            <element signature="e#4190#4250#0" expanded="false" />
+            <element signature="e#4255#4326#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/css/accueil.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="280" column="35" selection-start="4797" selection-end="4797" vertical-scroll-proportion="0.67171717" vertical-offset="3801" max-vertical-offset="4485">
@@ -724,6 +759,20 @@
             <element signature="e#1497#1612#0" expanded="false" />
             <element signature="e#1647#1763#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="63" selection-start="919" selection-end="919" vertical-scroll-proportion="0.7819905" vertical-offset="0" max-vertical-offset="633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="33" selection-start="727" selection-end="760" vertical-scroll-proportion="0.54818326" vertical-offset="13" max-vertical-offset="660">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,150 +808,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Entity/PublicationImage.php">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="10" selection-start="756" selection-end="762" vertical-scroll-proportion="0.45094937" vertical-offset="0" max-vertical-offset="1170">
+        <state line="17" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="0.09146342" vertical-offset="0" max-vertical-offset="656">
           <folding>
-            <element signature="e#193#286#0" expanded="false" />
-            <element signature="e#316#396#0" expanded="false" />
-            <element signature="e#421#564#0" expanded="false" />
-            <element signature="e#587#676#0" expanded="false" />
-            <element signature="e#701#751#0" expanded="false" />
-            <element signature="e#775#845#0" expanded="false" />
-            <element signature="e#871#945#0" expanded="false" />
-            <element signature="e#973#1105#0" expanded="false" />
-            <element signature="e#1111#1235#0" expanded="false" />
-            <element signature="e#1241#1450#0" expanded="false" />
-            <element signature="e#1456#1693#0" expanded="false" />
-            <element signature="e#1699#1759#0" expanded="false" />
-            <element signature="e#1764#2048#0" expanded="false" />
-            <element signature="e#2054#2116#0" expanded="false" />
-            <element signature="e#2122#2580#0" expanded="false" />
-            <element signature="e#2228#2296#0" expanded="false" />
-            <element signature="e#2586#2622#0" expanded="false" />
-            <element signature="e#2627#2754#0" expanded="false" />
-            <element signature="e#2760#2816#0" expanded="false" />
-            <element signature="e#2821#2882#0" expanded="false" />
-            <element signature="e#2888#2984#0" expanded="false" />
-            <element signature="e#2989#3083#0" expanded="false" />
-            <element signature="e#3089#3149#0" expanded="false" />
-            <element signature="e#3154#3219#0" expanded="false" />
-            <element signature="e#3225#3318#0" expanded="false" />
-            <element signature="e#3323#3417#0" expanded="false" />
-            <element signature="e#3423#3480#0" expanded="false" />
-            <element signature="e#3485#3550#0" expanded="false" />
-            <element signature="e#3556#3674#0" expanded="false" />
-            <element signature="e#3679#3812#0" expanded="false" />
-            <element signature="e#3818#3900#0" expanded="false" />
-            <element signature="e#3905#3970#0" expanded="false" />
-            <element signature="e#3976#4075#0" expanded="false" />
-            <element signature="e#4080#4186#0" expanded="false" />
-            <element signature="e#4192#4252#0" expanded="false" />
-            <element signature="e#4257#4328#0" expanded="false" />
+            <element signature="e#15#59#0" expanded="false" />
+            <element signature="e#102#477#0" expanded="false" />
+            <element signature="e#209#447#0" expanded="false" />
+            <element signature="e#305#409#0" expanded="false" />
+            <element signature="e#481#523#0" expanded="false" />
+            <element signature="e#564#978#0" expanded="false" />
+            <element signature="e#710#948#0" expanded="false" />
+            <element signature="e#883#938#0" expanded="false" />
+            <element signature="e#982#1029#0" expanded="false" />
+            <element signature="e#1070#1442#0" expanded="false" />
+            <element signature="e#1204#1420#0" expanded="false" />
+            <element signature="e#1367#1414#0" expanded="false" />
+            <element signature="e#1597#2489#0" expanded="false" />
+            <element signature="e#1886#2149#0" expanded="false" />
+            <element signature="e#2162#2482#0" expanded="false" />
+            <element signature="e#2577#2851#0" expanded="false" />
+            <element signature="e#2894#3207#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="63" selection-start="919" selection-end="919" vertical-scroll-proportion="0.7819905" vertical-offset="0" max-vertical-offset="633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="192" selection-end="216" vertical-scroll-proportion="0.16903633" vertical-offset="13" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Formulaires/Publication.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.5169628" vertical-offset="25" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="16" selection-start="2729" selection-end="2729" vertical-scroll-proportion="0.8628049" vertical-offset="994" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Template/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="60" selection-start="308" selection-end="318" vertical-scroll-proportion="0.14216478" vertical-offset="47" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="6" selection-start="5881" selection-end="5881" vertical-scroll-proportion="0.9725363" vertical-offset="1498" max-vertical-offset="2190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="0" selection-end="1702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Controller/PublicationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="1" selection-start="6323" selection-end="6323" vertical-scroll-proportion="1.4297254" vertical-offset="0" max-vertical-offset="975">
+        <state line="97" column="80" selection-start="3577" selection-end="3577" vertical-scroll-proportion="0.61066234" vertical-offset="162" max-vertical-offset="885">
           <folding>
-            <element signature="e#52#97#0" expanded="true" />
             <element signature="e#462#582#0" expanded="false" />
             <element signature="e#525#574#1" expanded="true" />
             <element signature="e#588#994#0" expanded="false" />
-            <element signature="e#965#984#1" expanded="true" />
             <element signature="e#1000#1416#0" expanded="false" />
-            <element signature="e#1387#1406#1" expanded="true" />
-            <element signature="e#1422#2673#0" expanded="false" />
-            <element signature="e#1674#1693#1" expanded="true" />
-            <element signature="e#2249#2268#1" expanded="true" />
-            <element signature="e#2485#2504#1" expanded="true" />
-            <element signature="e#2550#2605#0" expanded="true" />
-            <element signature="e#2959#2978#1" expanded="true" />
-            <element signature="e#3539#3558#1" expanded="true" />
-            <element signature="e#3775#3794#1" expanded="true" />
-            <element signature="e#3839#3899#0" expanded="true" />
-            <element signature="e#3973#5218#0" expanded="false" />
-            <element signature="e#4780#4799#1" expanded="true" />
-            <element signature="e#5032#5051#1" expanded="true" />
-            <element signature="e#5109#5172#0" expanded="true" />
-            <element signature="e#5224#6320#0" expanded="false" />
-            <element signature="e#5917#5936#1" expanded="true" />
-            <element signature="e#6153#6172#1" expanded="true" />
-            <element signature="e#6216#6274#0" expanded="true" />
+            <element signature="e#1422#2689#0" expanded="false" />
+            <element signature="e#2566#2621#0" expanded="true" />
+            <element signature="e#3855#3915#0" expanded="true" />
+            <element signature="e#3989#5290#0" expanded="false" />
+            <element signature="e#5181#5244#0" expanded="true" />
+            <element signature="e#5296#6392#0" expanded="false" />
+            <element signature="e#6288#6346#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/publication.js">
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/public/js/java.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="3" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.45731708" vertical-offset="0" max-vertical-offset="656">
+        <state line="29" column="0" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.67651635" vertical-offset="0" max-vertical-offset="643">
           <folding>
-            <element signature="e#19#63#0" expanded="false" />
-            <element signature="e#106#481#0" expanded="false" />
-            <element signature="e#213#451#0" expanded="false" />
-            <element signature="e#309#413#0" expanded="false" />
-            <element signature="e#572#986#0" expanded="false" />
-            <element signature="e#718#956#0" expanded="false" />
-            <element signature="e#891#946#0" expanded="false" />
-            <element signature="e#1086#1506#0" expanded="false" />
-            <element signature="e#1232#1476#0" expanded="false" />
-            <element signature="e#1661#2553#0" expanded="false" />
-            <element signature="e#1950#2213#0" expanded="false" />
-            <element signature="e#2226#2546#0" expanded="false" />
-            <element signature="e#2641#2920#0" expanded="false" />
-            <element signature="e#2963#3276#0" expanded="false" />
+            <element signature="e#1499#1695#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AwardMe/AwardMeBundle/Resources/views/Accueil/accueil_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="203" selection-start="5167" selection-end="5167" vertical-scroll-proportion="0.44264942" vertical-offset="1496" max-vertical-offset="2190">
+          <folding />
         </state>
       </provider>
     </entry>
