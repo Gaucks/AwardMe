@@ -85,7 +85,6 @@
     <div id="box-content_right">
 
 
-
         {% for p in publications %}
 
             <div class="box-diary">
@@ -93,8 +92,9 @@
                 <h4 class="diary-username">{{ p.user.username }}, <span class="option">{{ p.date|date('d M y') }} à {{ p.date|date('H:i') }} </span></h4>
 
                     {% if p.path is defined %}
+                        {% set imagepath = 'uploads/publicationsImages/'~p.path  %}
                     <div class="publication-pic-box">
-                        <img src="{{ asset('uploads/publicationsImages/') ~p.path }}" class="publication-pic" alt="{{ p.user.username }}"/>
+                        <img src="{{ imagepath | imagine_filter('my_thumb') }}" class="publication-pic" alt="{{ p.user.username }}"/>
                         <p class="diary-content">{{ p.content }}</p>
                         <div class="clear"></div>
                     </div>
@@ -110,10 +110,13 @@
 
                         <div class="options-box" id="options-box-{{ p.id }}">
                             <ul id="options-ul">
-                                <li class="options-li"><a href="#" rel="{{ p.id }}" class="options-list">Ne plus afficher cette publication.</a></li>
+
+                                <li class="options-li"><a href="#" rel="{{ p.id }}"{% if p.path is defined %} class="options-list-img" {% else %} class="options-list" {% endif %}>Ne plus afficher cette publication.</a></li>
+
+
                                 <li class="options-li"><a href="#" class="options-list">Signaler le contenu.</a></li>
                                 <li class="options-li"><a href="#" class="options-list">Ajouter l'auteur à mes amis.</a></li>
-                                <li class="options-li"><a href="#" data-width="500" data-rel="popup_update-{{ p.id }}" class="poplight">Modifier ma publication</a></li>
+                                <li class="options-li"><a href="#" data-width="500" {% if p.path is defined %} data-rel="popup_update-img-{{ p.id }}" {% else %}data-rel="popup_update-{{ p.id }}" {% endif %}class="poplight">Modifier ma publication</a></li>
                             </ul>
                         </div>
 
@@ -125,6 +128,11 @@
             <div id="popup_update-{{ p.id }}" class="popup_block">
                 {% render(controller('AwardMeBundle:Publication:Update', { 'id': p.id })) %}
             </div>
+
+            <div id="popup_update-img-{{ p.id }}" class="popup_block">
+                {% render(controller('AwardMeBundle:Publication:UpdatePublicationImage', { 'id': p.id })) %}
+            </div>
+
 
         {% endfor %}
 

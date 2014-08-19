@@ -161,10 +161,9 @@
 }
 
 .publication-pic-box img.publication-pic{
-    width: 400px;
-    height: auto;
     float: left;
     margin: 0 10px 10px 0;
+    border: 1px solid rgba(0, 0, 0, .15);
 }
 
 .challenge{
@@ -213,9 +212,7 @@
 }
 
 .box-diary-img img.diary{
-    max-width: 400px;
     height: auto;
-    max-height: 250px;
 }
 
 .box-diary-options{
@@ -279,6 +276,10 @@ div.options-box a.options-list{
 
 div.options-box a.options-list:hover{
     color: #FFFFFF;
+}
+
+div.options-box a.options-list-img{
+    color: inherit;
 }
 
 

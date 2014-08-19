@@ -21,6 +21,9 @@
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
         "stof/doctrine-extensions-bundle": "~1.1@dev",
+        "liip/imagine-bundle": "dev-master",
+        "friendsofsymfony/jsrouting-bundle": "@stable",
+        "imagine/imagine": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

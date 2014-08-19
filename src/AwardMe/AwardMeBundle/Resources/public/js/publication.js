@@ -33,6 +33,23 @@ $(function(){
         return false;
     });
 
+/* Permet de supprimer les publicationImages */
+$('a.options-list-img').click(function(){
+
+    var parent      = $(this).parent().parent().parent().parent().parent();
+    var publication = $(this).attr('rel');
+
+    $.ajax({
+        type: "GET",
+        url: Routing.generate('award_me_remove_publication_image', { 'id': publication }),
+        cache: false,
+        success: function(){
+            parent.slideUp('slow');
+        }
+    });
+    return false;
+});
+
 //La fonction s'active sur l'évènement keydown dans la zone de texte
     $("textarea#awardme_awardmebundle_publication_content").keyup(function(limit) {
 

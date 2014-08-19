@@ -45,6 +45,20 @@ class PublicationService {
         }
     }
 
+    // Supprime les publicationsImages
+    public function removePublicationImage($publication, $user){
+
+        $product = $this->em->getRepository('AwardMeBundle:PublicationImage')->findOneBy(array('id' => $publication, 'user' => $user));
+
+        if(!$product){
+            return false;
+        }
+        else{
+            $this->updateBDD($product);
+            return TRUE;
+        }
+    }
+
     // Sauvegarde de la BDD
     private function saveBDD($publication){
         $this->em->persist($publication);

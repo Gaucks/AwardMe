@@ -22,9 +22,17 @@ award_me_update_publication:
     path:     /Publication/update/{id}
     defaults: { _controller: AwardMeBundle:Publication:update }
 
+award_me_update_publication_image:
+    path:     /Publication/update/image/{id}
+    defaults: { _controller: AwardMeBundle:Publication:updatePublicationImage }
+
 award_me_remove_publication:
     path:     /Publication/remove/{id}
     defaults: { _controller: AwardMeBundle:Publication:remove }
+
+award_me_remove_publication_image:
+    path:     /Publication/remove/image/{id}
+    defaults: { _controller: AwardMeBundle:Publication:removeImage }
 
 award_me_user_change_avatar:
     path:     /Profile/change-avatar

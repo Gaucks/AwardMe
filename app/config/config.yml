@@ -87,3 +87,15 @@ stof_doctrine_extensions:
     orm:
         default:
             timestampable: TRUE
+
+liip_imagine:
+    resolvers:
+       default:
+          web_path: ~
+
+    filter_sets:
+        cache: ~
+        my_thumb:
+            quality: 50
+            filters:
+                thumbnail: { size: [400, 200], mode: outbound }
