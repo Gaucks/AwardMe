@@ -1,6 +1,9 @@
+{% set avatar_path =  'bundles/user/images/avatars/'~ app.user.avatar.path  %}
+
 <div id="user-menu">
+
     <div id="user-avatar">
-        <img src="{{ asset('bundles/user/images/avatars/'~ app.user.avatar.path ) }}" alt="{{ app.user.username }}" class="avatar"/>
+        <img src="{{ avatar_path | imagine_filter('my_avatar') }}" alt="{{ app.user.username }}" class="avatar"/>
         <h4 id="username"> {{ app.user.username }}  </h4>
         <p class="logout"><a href="{{ path('fos_user_profile_show') }}" class="profil">Mon profil </a> - <a href="{{ path('fos_user_security_logout') }}" class="profil">Déconnexion</a> </p>
     </div>

@@ -19,7 +19,7 @@ $(function(){
 /* Permet de supprimer les publications */
     $('a.options-list').click(function(){
 
-        var parent      = $(this).parent().parent().parent().parent().parent();
+        var parent      = $(this).parent().parent().parent().parent();
         var publication = $(this).attr('rel');
 
         $.ajax({
@@ -36,7 +36,7 @@ $(function(){
 /* Permet de supprimer les publicationImages */
 $('a.options-list-img').click(function(){
 
-    var parent      = $(this).parent().parent().parent().parent().parent();
+    var parent      = $(this).parent().parent().parent().parent();
     var publication = $(this).attr('rel');
 
     $.ajax({
